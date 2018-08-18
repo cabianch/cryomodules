@@ -1,0 +1,53 @@
+#==============================================================================
+#
+# Abs:  CRYO Warm Compressor Database ()
+#
+# Name:  sioc-cp12-cr14.substitutions
+#
+# substitutions are:
+#
+#	P_NAME	  EPICS PLC NAME such as PLC:CP12:CR14
+#   PLC_NAME  plc name such as PLC_CP12_CR14
+#==============================================================================
+#
+#PLC Admin 
+#
+file cryoControl_plcAdmin.db
+{
+   pattern{   PLC_NAME      , P_NAME  }
+          { PLC_CP12_CR14   ,$(P_NAME) } 
+}
+#
+# analog inputs for warm compressors
+#
+file wcmp_AIns.db
+{
+	 pattern { PLC_NAME	,	  AREA , CMPNUM }
+   			 { PLC_CP12_CR14, CP12 , 4      }
+}
+#
+# misc records for warm compressors
+#
+file wcmp_misc.vdb
+{
+	 pattern { PLC_NAME	,	  AREA , LOCA, CMPNUM }
+   			 { PLC_CP12_CR14, CP12 , 14,   4      }
+}
+#
+#
+# start / stop records for warm compressors
+#
+file wcmp_StartStop.vdb
+{
+	 pattern { PLC_NAME	,	  AREA , LOCA, CMPNUM }
+   			 { PLC_CP12_CR14, CP12 , 14,   4      }
+}
+
+# misc records for cryo plc
+#
+file plc_status.vdb
+{
+	 pattern { PLC_NAME	,	  AREA , LOCA, CMPNUM }
+   			 { PLC_CP12_CR14, CP12 , 14,   4      }
+}
+# End of file

@@ -1,0 +1,69 @@
+# RELEASE - Location of external support modules
+#
+# IF YOU MAKE ANY CHANGES to this file you must subsequently
+# do a "gnumake rebuild" in this application's top level
+# directory.
+#
+# The build process does not check dependencies against files
+# that are outside this application, thus you should do a
+# "gnumake rebuild" in the top level directory after EPICS_BASE
+# or any other external module pointed to below is rebuilt.
+#
+# Host- or target-specific settings can be given in files named
+#  RELEASE.$(EPICS_HOST_ARCH).Common
+#  RELEASE.Common.$(T_A)
+#  RELEASE.$(EPICS_HOST_ARCH).$(T_A)
+#
+# This file should ONLY define paths to other support modules,
+# or include statements that pull in similar RELEASE files.
+# Build settings that are NOT module paths should appear in a
+# CONFIG_SITE file.
+
+# If you don't want to install into $(TOP) then
+# define INSTALL_LOCATION_APP here
+#INSTALL_LOCATION_APP=<fullpathname>
+
+# EPICS Templates
+#TEMPLATE_TOP=$(EPICS_BASE)/templates/makeBaseApp/top
+
+# =============================================================
+# All needed variables come in via the following include:
+# =============================================================
+include $(TOP)/RELEASE_SITE
+
+# =============================================================
+# Define the version of modules needed by
+# IOC apps or other Support apps
+# =============================================================
+#SEQ_MODULE_VERSION=seq-R2-1-6_1-0
+#AUTOSAVE_MODULE_VERSION=autosave-R4-8_4-0
+#CAPUTLOG_MODULE_VERSION=caPutLog-R3-3-0
+#IOCADMIN_MODULE_VERSION=iocAdmin-R3-1-9_1-0
+#ETHER_IP_MODULE_VERSION=ether_ip-R2-16-lcls5
+#PLCADMIN_MODULE_VERSION=plcAdmin-R3-0-0
+
+#for 64-bit lcls-dev3 and EPICS R3.15.5-1.0 
+IOCADMIN_MODULE_VERSION=R3.1.15-0.1.0
+AUTOSAVE_MODULE_VERSION=R5.7.1-0.1.0
+SEQ_MODULE_VERSION=R2.2.4-1.0
+CAPUTLOG_MODULE_VERSION=R3.5-0.1.0
+ETHER_IP_MODULE_VERSION=R2.26-0.1.0
+PLCADMIN_MODULE_VERSION=R3.1.0
+
+# ============================================================
+#  Module Location
+# ============================================================
+IOCADMIN=$(EPICS_MODULES)/iocAdmin/$(IOCADMIN_MODULE_VERSION)
+AUTOSAVE=$(EPICS_MODULES)/autosave/$(AUTOSAVE_MODULE_VERSION)
+SNCSEQ=$(EPICS_MODULES)/seq/$(SEQ_MODULE_VERSION)
+CAPUTLOG=$(EPICS_MODULES)/caPutLog/$(CAPUTLOG_MODULE_VERSION)
+ETHER_IP=$(EPICS_MODULES)/ether_ip/$(ETHER_IP_MODULE_VERSION)
+PLCADMIN=$(EPICS_MODULES)/plcAdmin/$(PLCADMIN_MODULE_VERSION)
+
+# EPICS_BASE usually appears last so other apps can override stuff:
+EPICS_BASE=$(BASE_SITE_TOP)/$(BASE_MODULE_VERSION)
+
+
+# Set RULES here if you want to take build rules from somewhere
+# other than EPICS_BASE:
+#RULES=/path/to/epics/support/module/rules/x-y

@@ -1,0 +1,617 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 546
+y 223
+w 866
+h 686
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 6
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 3
+y 69
+w 885
+h 605
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 5
+w 887
+h 59
+lineColor index 14
+fill
+fillColor index 64
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 11
+y 21
+w 257
+h 27
+font "helvetica-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CERNOX data display"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 40
+y 100
+w 795
+h 249
+lineColor index 9
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 49
+y 92
+w 254
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 3
+value {
+  "CM$(CMNUM) CERNOX #$(CXNUM)"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 146
+y 123
+w 67
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Description"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 325
+y 123
+w 32
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Value"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 40
+y 370
+w 797
+h 249
+lineColor index 9
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 46
+y 364
+w 73
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Table Data"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 297
+y 142
+w 93
+h 34
+controlPv "SIOC:DB01:CR0D:CM$(CMNUM)_CX$(CXNUM)_R"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 64
+y 142
+w 219
+h 34
+controlPv "SIOC:DB01:CR0D:CM$(CMNUM)_CX$(CXNUM)_R.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 64
+y 193
+w 219
+h 34
+controlPv "SIOC:DB01:CR0D:CM$(CMNUM)_CX$(CXNUM)_LOGR.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 64
+y 244
+w 219
+h 34
+controlPv "SIOC:DB01:CR0D:CM$(CMNUM)_CX$(CXNUM)_I.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 297
+y 244
+w 93
+h 34
+controlPv "SIOC:DB01:CR0D:CM$(CMNUM)_CX$(CXNUM)_I"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 62
+y 296
+w 219
+h 34
+controlPv "SIOC:DB01:CR0D:CM$(CMNUM)_CX$(CXNUM)_X.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 295
+y 296
+w 95
+h 34
+controlPv "SIOC:DB01:CR0D:CM$(CMNUM)_CX$(CXNUM)_X"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 673
+y 293
+w 95
+h 34
+controlPv "SIOC:DB01:CR0D:CM$(CMNUM)_CX$(CXNUM)_ZU"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 440
+y 293
+w 219
+h 34
+controlPv "SIOC:DB01:CR0D:CM$(CMNUM)_CX$(CXNUM)_ZU.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 675
+y 241
+w 93
+h 34
+controlPv "SIOC:DB01:CR0D:CM$(CMNUM)_CX$(CXNUM)_ZL"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 442
+y 241
+w 219
+h 34
+controlPv "SIOC:DB01:CR0D:CM$(CMNUM)_CX$(CXNUM)_ZL.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 675
+y 190
+w 93
+h 34
+controlPv "SIOC:DB01:CR0D:CM$(CMNUM)_CX$(CXNUM)_TBL"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 442
+y 190
+w 219
+h 34
+controlPv "SIOC:DB01:CR0D:CM$(CMNUM)_CX$(CXNUM)_TBL.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 675
+y 139
+w 93
+h 34
+controlPv "SIOC:DB01:CR01:CM$(CMNUM)_CX$(CXNUM)_T"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 442
+y 139
+w 219
+h 34
+controlPv "SIOC:DB01:CR01:CM$(CMNUM)_CX$(CXNUM)_T.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 703
+y 120
+w 32
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Value"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 524
+y 120
+w 67
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Description"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 297
+y 193
+w 93
+h 34
+controlPv "SIOC:DB01:CR0D:CM$(CMNUM)_CX$(CXNUM)_LOGR"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Coef Table)
+object activeCoefTableClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 73
+y 386
+w 153
+h 219
+fgColor index 16
+bgColor index 12
+oddColBgColor index 10
+evenColBgColor index 12
+topShadowColor index 0
+botShadowColor index 14
+pv "SIOC:DB01:CR0D:CM$(CMNUM)_CX$(CXNUM)_TBL0_K"
+firstElement 0
+numElements 9
+font "helvetica-medium-r-14.0"
+endObjectProperties
+
+# (Coef Table)
+object activeCoefTableClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 273
+y 387
+w 153
+h 219
+fgColor index 16
+bgColor index 12
+oddColBgColor index 10
+evenColBgColor index 12
+topShadowColor index 0
+botShadowColor index 14
+pv "SIOC:DB01:CR0D:CM$(CMNUM)_CX$(CXNUM)_TBL1_K"
+firstElement 0
+numElements 8
+font "helvetica-medium-r-14.0"
+endObjectProperties
+
+# (Coef Table)
+object activeCoefTableClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 495
+y 390
+w 153
+h 219
+fgColor index 16
+bgColor index 12
+oddColBgColor index 10
+evenColBgColor index 12
+topShadowColor index 0
+botShadowColor index 14
+pv "SIOC:DB01:CR0D:CM$(CMNUM)_CX$(CXNUM)_TBL2_K"
+firstElement 0
+numElements 8
+font "helvetica-medium-r-14.0"
+endObjectProperties
+

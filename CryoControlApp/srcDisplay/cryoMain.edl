@@ -1,0 +1,827 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 211
+y 50
+w 1069
+h 1116
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 6
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 3
+y 69
+w 1055
+h 1030
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 5
+w 1422
+h 59
+lineColor index 14
+fill
+fillColor index 63
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 412
+y 20
+w 209
+h 27
+font "helvetica-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CRYO Main Menu"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 36
+y 104
+w 473
+h 424
+lineColor index 9
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 49
+y 95
+w 140
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Upstream Cryoplant"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 36
+y 551
+w 995
+h 234
+lineColor index 9
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 59
+y 542
+w 281
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Upstream Distribution and Cryomodules"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 37
+y 818
+w 995
+h 234
+lineColor index 9
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 60
+y 809
+w 300
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Downstream Distribution and Cryomodules"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 524
+y 104
+w 506
+h 424
+lineColor index 9
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 542
+y 96
+w 159
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Downstream Cryoplant"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 68
+y 129
+w 194
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "LCLS-II Cryoplant 1 (CP1)"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 68
+y 177
+w 194
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "CP1 Warm Compressors"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "cryo_compressors_main.edl"
+}
+symbols {
+  0 "CP=1, C=4"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 68
+y 225
+w 194
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "CP1 Cold Box Process"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 68
+y 274
+w 194
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "CP1 Cold Box Control"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 68
+y 322
+w 194
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "CP1 Cold Box Turbines"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 68
+y 371
+w 194
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "CP1 Cold Box Misc"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 68
+y 419
+w 194
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "CP1 2K Cold Box"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 68
+y 468
+w 194
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "CP1 Matrix"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 557
+y 461
+w 194
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "CP2 Matrix"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 557
+y 412
+w 194
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "CP2 2K Cold Box"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 557
+y 364
+w 194
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "CP2 Cold Box Misc"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 557
+y 315
+w 194
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "CP2 Cold Box Turbines"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 557
+y 267
+w 194
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "CP2 Cold Box Control"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 557
+y 218
+w 194
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "CP2 Cold Box Process"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 557
+y 170
+w 194
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "CP2 Warm Compressors"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 557
+y 122
+w 194
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "LCLS-II Cryoplant 2 (CP2)"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 183
+y 573
+w 223
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "Upstream Distribution Box"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 675
+y 572
+w 207
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "Upstream LINAC"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 84
+y 619
+w 207
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "End Cap / Feed Caps"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 84
+y 660
+w 207
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "Distribution Heaters"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 303
+y 618
+w 207
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "2K Overview"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 303
+y 659
+w 207
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "Shield Overview"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 564
+y 620
+w 207
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "JT Matrix"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 775
+y 620
+w 207
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "Cavity Heaters"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 776
+y 663
+w 207
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "Auto Heat"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 565
+y 663
+w 207
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "JT OFF"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 776
+y 706
+w 207
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "Swing Heat"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 565
+y 706
+w 207
+h 37
+fgColor index 14
+bgColor index 58
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "Liquid Level"
+numPvs 4
+numDsps 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 896
+y 19
+w 96
+h 24
+fgColor index 14
+bgColor index 4
+topShadowColor index 1
+botShadowColor index 11
+font "helvetica-medium-r-12.0"
+buttonLabel "Home Screen..."
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "lcls_main"
+}
+setPosition {
+  0 "parentWindow"
+}
+replaceSymbols {
+  0 1
+}
+endObjectProperties
+
+# (Exit Button)
+object activeExitButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1008
+y 19
+w 48
+h 24
+fgColor index 14
+bgColor index 4
+topShadowColor index 1
+botShadowColor index 11
+label "Exit"
+font "helvetica-medium-r-12.0"
+3d
+endObjectProperties
+

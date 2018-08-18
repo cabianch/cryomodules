@@ -1,0 +1,2545 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 1644
+y 65
+w 700
+h 600
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-8.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 4
+textColor index 14
+ctlFgColor1 index 30
+ctlFgColor2 index 32
+ctlBgColor1 index 34
+ctlBgColor2 index 35
+topShadowColor index 37
+botShadowColor index 44
+gridSize 5
+endScreenProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 47
+y 417
+w 67
+h 15
+font "helvetica-bold-r-14.0"
+fgColor index 20
+bgColor index 34
+useDisplayBg
+visPv "plcch11_StatBits.B3"
+visMin "1"
+visMax "2"
+value {
+  "PLC Faulted"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 42
+y 305
+w 134
+h 15
+font "helvetica-bold-r-14.0"
+fgColor index 20
+bgColor index 34
+useDisplayBg
+visPv "plcch11c21$(C)_Alarm1.B8"
+visMin "1"
+visMax "2"
+value {
+  "Rack 1 Slot 8 Card Fault"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 497
+y 187
+w 166
+h 84
+lineColor index 14
+fillColor index 14
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 5
+y 59
+w 55
+h 16
+controlPv "plcch11c21$(C)_LR"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 54
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 0
+w 699
+h 24
+lineColor index 19
+fill
+fillColor index 19
+lineWidth 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 46
+y 1
+w 633
+h 22
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 55
+bgColor index 0
+useDisplayBg
+value {
+  "CHL2 Compressor PLC Digital Status and Faults"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 3
+y 4
+w 120
+h 16
+controlPv "iocch11:date"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 55
+bgColor index 19
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 330
+y 301
+w 66
+h 16
+controlPv "plcch11c21$(C)_ST"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 54
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 408
+y 302
+w 206
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PLC Scan Time (In Microseconds)"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 330
+y 323
+w 68
+h 16
+controlPv "plcch11c21$(C)_MST"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 54
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 409
+y 324
+w 234
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PLC Scan Time Max (In Microseconds)"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 330
+y 344
+w 23
+h 16
+controlPv "plcch11c21$(C)_HSHK"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 54
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 354
+y 345
+w 195
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EPICS/PLC Handshake Value"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 971
+y 2
+w 20
+h 20
+fgColor index 14
+bgColor index 51
+topShadowColor index 2
+botShadowColor index 12
+font "helvetica-medium-r-8.0"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "chl/CHL_O_menu.edl"
+}
+menuLabel {
+  0 "CHL Menu List"
+}
+setPosition {
+  0 "parentWindow"
+}
+icon
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 528
+y 195
+w 134
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "plcch11c21$(C)_StatBits.B2"
+visInvert
+visMin "0"
+visMax "1"
+value {
+  "Keyswitch in Remote "
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 529
+y 221
+w 111
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "plcch11c21$(C)_StatBits.B0"
+visInvert
+visMin "0"
+visMax "1"
+value {
+  "Keyswitch in Run"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 4
+y 59
+w 57
+h 16
+lineColor index 20
+fillColor index 20
+lineWidth 2
+visPv "CALC\\\{(A)\}(plcch11c21$(C)_LR)"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 4
+y 27
+w 105
+h 32
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "plcch11c21$(C)"
+  "Status:"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 46
+y 119
+w 149
+h 19
+font "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 34
+useDisplayBg
+value {
+  "PLC CARD FAULTS"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 530
+y 248
+w 128
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "plcch11c21$(C)_StatBits.B1"
+visInvert
+visMin "0"
+visMax "1"
+value {
+  "Keyswitch in Program"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 504
+y 222
+w 15
+h 13
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "plcch11c21$(C)_StatBits.B0"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 504
+y 196
+w 15
+h 13
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "plcch11c21$(C)_StatBits.B2"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 504
+y 248
+w 15
+h 13
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "plcch11c21$(C)_StatBits.B1"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 12
+y 116
+w 30
+h 28
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Mask"
+  "Fault"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 47
+y 488
+w 15
+h 13
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 47
+y 488
+w 15
+h 13
+lineColor index 20
+fill
+fillColor index 20
+lineWidth 0
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 47
+y 488
+w 15
+h 13
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "plcch11c21$(C)_Alarm1.B0"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 73
+y 489
+w 102
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visInvert
+value {
+  "PLC Total Alarm"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 357
+y 385
+w 195
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EPICS/PLC Comm Good"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 354
+y 364
+w 195
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "EPICS/PLC Handshake Misses"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 330
+y 363
+w 23
+h 16
+controlPv "plcch11c21$(C)_hbmon.B"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 54
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 320
+y 112
+w 156
+h 63
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 324
+y 116
+w 15
+h 13
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 320
+y 112
+w 156
+h 63
+lineColor index 14
+fillColor index 14
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 324
+y 116
+w 15
+h 13
+lineColor index 30
+fill
+fillColor index 30
+lineWidth 0
+visPv "plcch11c21$(C)_StatBits.B7"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 347
+y 116
+w 128
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "plcch11c21$(C)_StatBits.B7"
+visInvert
+visMin "0"
+visMax "1"
+value {
+  "PLC Forces Installed"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 347
+y 116
+w 126
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "plcch11c21$(C)_StatBits.B7"
+visMin "0"
+visMax "1"
+value {
+  "No Forces Installed"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 324
+y 155
+w 15
+h 13
+lineColor index 20
+fill
+fillColor index 20
+lineWidth 0
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 347
+y 155
+w 115
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "plcch11c21$(C)_StatBits.B6"
+visMin "0"
+visMax "1"
+value {
+  "PLC Battery Good"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 347
+y 155
+w 111
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "plcch11c21$(C)_StatBits.B6"
+visInvert
+visMin "0"
+visMax "1"
+value {
+  "PLC Battery Bad"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 324
+y 155
+w 15
+h 13
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "plcch11c21$(C)_StatBits.B6"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 324
+y 136
+w 137
+h 14
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 324
+y 136
+w 15
+h 13
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 324
+y 136
+w 15
+h 13
+lineColor index 30
+fill
+fillColor index 30
+lineWidth 0
+visPv "plcch11c21$(C)_StatBits.B8"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 347
+y 136
+w 125
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "plcch11c21$(C)_StatBits.B8"
+visInvert
+visMin "0"
+visMax "1"
+value {
+  "PLC Forces Enabled"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 347
+y 136
+w 128
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "plcch11c21$(C)_StatBits.B8"
+visMin "0"
+visMax "1"
+value {
+  "PLC Forces Disabled"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 496
+y 112
+w 166
+h 64
+lineColor index 14
+fillColor index 14
+lineWidth 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 527
+y 124
+w 134
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "plcch11c21$(C)_StatBits.B4"
+visInvert
+visMin "0"
+visMax "1"
+value {
+  "PLC Run Mode"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 528
+y 149
+w 111
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "plcch11c21$(C)_StatBits.B5"
+visMin "0"
+visMax "1"
+value {
+  "PLC Program Mode"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 503
+y 150
+w 15
+h 13
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "plcch11c21$(C)_StatBits.B5"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 503
+y 124
+w 15
+h 13
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "plcch11c21$(C)_StatBits.B4"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 335
+y 386
+w 15
+h 13
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 335
+y 386
+w 15
+h 13
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 335
+y 386
+w 15
+h 13
+lineColor index 20
+fill
+fillColor index 20
+lineWidth 0
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 335
+y 386
+w 15
+h 13
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "plcch11c21$(C)_hbmon.C"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 211
+y 538
+w 69
+h 22
+fgColor index 14
+onColor index 52
+offColor index 52
+topShadowColor index 0
+botShadowColor index 14
+controlPv "plcch11c21$(C)_Fault_Rst"
+pressValue "1"
+onLabel "RESET"
+offLabel "RESET"
+3d
+useEnumNumeric
+font "helvetica-medium-r-14.0"
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 673
+y 2
+w 20
+h 20
+fgColor index 14
+bgColor index 51
+topShadowColor index 2
+botShadowColor index 12
+font "helvetica-medium-r-8.0"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "/cs/opshome/edm/cryo/CRYO_O_totalmenu.edl"
+}
+menuLabel {
+  0 "CHL Menu List"
+}
+icon
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 585
+y 6
+w 80
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 55
+bgColor index 0
+useDisplayBg
+value {
+  "CHL MENU"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 2
+release 0
+x 369
+y 187
+w 107
+h 22
+fgColor index 14
+bgColor index 66
+topShadowColor index 51
+botShadowColor index 44
+font "helvetica-medium-r-14.0"
+buttonLabel "Channel Faults"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "chl2/Compressors/PlcChannelFaults.edl"
+}
+menuLabel {
+  0 "Channel Faults"
+}
+symbols {
+  0 "C= $(C)"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 236
+y 148
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 25
+visPv "plcch11c21$(C)_AlarmL.B2"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 236
+y 175
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 25
+visPv "plcch11c21$(C)_AlarmL.B3"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 236
+y 200
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 25
+visPv "plcch11c21$(C)_AlarmL.B4"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 43
+y 148
+w 150
+h 15
+font "helvetica-bold-r-14.0"
+fgColor index 20
+bgColor index 34
+useDisplayBg
+visPv "plcch11c21$(C)_Alarm1.B2"
+visMin "1"
+visMax "2"
+value {
+  "Rack 1 Ethernet Card Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 43
+y 148
+w 140
+h 15
+font "helvetica-bold-r-14.0"
+fgColor index 18
+bgColor index 34
+useDisplayBg
+visPv "plcch11c21$(C)_Alarm1.B2"
+visInvert
+visMin "1"
+visMax "2"
+value {
+  "Rack 1 Ethernet Card OK"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 43
+y 175
+w 132
+h 15
+font "helvetica-bold-r-14.0"
+fgColor index 20
+bgColor index 34
+useDisplayBg
+visPv "plcch11c21$(C)_Alarm1.B3"
+visMin "1"
+visMax "2"
+value {
+  "Rack 1 CNET Card Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 43
+y 175
+w 122
+h 15
+font "helvetica-bold-r-14.0"
+fgColor index 18
+bgColor index 34
+useDisplayBg
+visPv "plcch11c21$(C)_Alarm1.B3"
+visInvert
+visMin "1"
+visMax "2"
+value {
+  "Rack 1 CNET Card OK"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 42
+y 227
+w 134
+h 15
+font "helvetica-bold-r-14.0"
+fgColor index 20
+bgColor index 34
+useDisplayBg
+visPv "plcch11c21$(C)_Alarm1.B5"
+visMin "1"
+visMax "2"
+value {
+  "Rack 1 Slot 4 Card Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 42
+y 227
+w 124
+h 15
+font "helvetica-bold-r-14.0"
+fgColor index 18
+bgColor index 34
+useDisplayBg
+visPv "plcch11c21$(C)_Alarm1.B5"
+visInvert
+visMin "1"
+visMax "2"
+value {
+  "Rack 1 Slot 4 Card OK"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 42
+y 200
+w 134
+h 15
+font "helvetica-bold-r-14.0"
+fgColor index 20
+bgColor index 34
+useDisplayBg
+visPv "plcch11c21$(C)_Alarm1.B4"
+visMin "1"
+visMax "2"
+value {
+  "Rack 1 Slot 3 Card Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 42
+y 200
+w 124
+h 15
+font "helvetica-bold-r-14.0"
+fgColor index 18
+bgColor index 34
+useDisplayBg
+visPv "plcch11c21$(C)_Alarm1.B4"
+visInvert
+visMin "1"
+visMax "2"
+value {
+  "Rack 1 Slot 3 Card OK"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 236
+y 228
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 25
+visPv "plcch11c21$(C)_AlarmL.B5"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 236
+y 254
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 25
+visPv "plcch11c21$(C)_AlarmL.B6"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 236
+y 280
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 25
+visPv "plcch11c21$(C)_AlarmL.B7"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 236
+y 306
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 25
+visPv "plcch11c21$(C)_AlarmL.B8"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 234
+y 417
+w 16
+h 15
+lineColor index 14
+fill
+fillColor index 25
+visPv "plcch11c21$(C)_AlarmL.B1"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 42
+y 305
+w 124
+h 15
+font "helvetica-bold-r-14.0"
+fgColor index 18
+bgColor index 34
+useDisplayBg
+visPv "plcch11c21$(C)_Alarm1.B8"
+visInvert
+visMin "1"
+visMax "2"
+value {
+  "Rack 1 Slot 8 Card OK"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 235
+y 487
+w 15
+h 14
+lineColor index 14
+fill
+fillColor index 25
+visPv "plcch11c21$(C)_AlarmL.B0"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 286
+y 60
+w 74
+h 23
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 286
+y 60
+w 62
+h 23
+lineColor index 30
+fill
+fillColor index 30
+lineWidth 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 291
+y 65
+w 62
+h 16
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LOCAL"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 286
+y 60
+w 62
+h 23
+lineColor index 16
+fill
+fillColor index 16
+lineWidth 0
+visPv "CLR21$(C)"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 286
+y 65
+w 74
+h 16
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "CLR21$(C)"
+visMin "0"
+visMax "1"
+value {
+  "REMOTE"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 106
+y 56
+w 241
+h 30
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Physical Keyswitch Status:"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 47
+y 417
+w 78
+h 15
+font "helvetica-bold-r-14.0"
+fgColor index 18
+bgColor index 34
+useDisplayBg
+visPv "plcch11_StatBits.B3"
+visInvert
+visMin "1"
+visMax "2"
+value {
+  "PLC No Faults"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 530
+y 481
+w 117
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PLC Power Supply 1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 530
+y 502
+w 117
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "PLC Power Supply 2"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 502
+w 15
+h 13
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 502
+w 15
+h 13
+lineColor index 20
+fill
+fillColor index 20
+lineWidth 0
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 502
+w 15
+h 13
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "CPSPL21$(C)_2"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 523
+w 15
+h 13
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 523
+w 15
+h 13
+lineColor index 20
+fill
+fillColor index 20
+lineWidth 0
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 523
+w 15
+h 13
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "CPSPL21$(C)_3"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 530
+y 523
+w 116
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "24V Power Supply 1"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 530
+y 545
+w 116
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "24V Power Supply 2"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 545
+w 15
+h 13
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 545
+w 15
+h 13
+lineColor index 20
+fill
+fillColor index 20
+lineWidth 0
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 545
+w 15
+h 13
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "CPSPL21$(C)_4"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 42
+y 278
+w 134
+h 15
+font "helvetica-bold-r-14.0"
+fgColor index 20
+bgColor index 34
+useDisplayBg
+visPv "plcch11c21$(C)_Alarm1.B7"
+visMin "1"
+visMax "2"
+value {
+  "Rack 1 Slot 6 Card Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 42
+y 278
+w 124
+h 15
+font "helvetica-bold-r-14.0"
+fgColor index 18
+bgColor index 34
+useDisplayBg
+visPv "plcch11c21$(C)_Alarm1.B7"
+visInvert
+visMin "1"
+visMax "2"
+value {
+  "Rack 1 Slot 6 Card OK"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 42
+y 252
+w 134
+h 15
+font "helvetica-bold-r-14.0"
+fgColor index 20
+bgColor index 34
+useDisplayBg
+visPv "plcch11c21$(C)_Alarm1.B6"
+visMin "1"
+visMax "2"
+value {
+  "Rack 1 Slot 5 Card Fault"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 42
+y 252
+w 124
+h 15
+font "helvetica-bold-r-14.0"
+fgColor index 18
+bgColor index 34
+useDisplayBg
+visPv "plcch11c21$(C)_Alarm1.B6"
+visInvert
+visMin "1"
+visMax "2"
+value {
+  "Rack 1 Slot 5 Card OK"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 445
+y 47
+w 111
+h 24
+font "helvetica-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CMP21$(C)"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 649
+y 480
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 25
+visPv "plcch11c21$(C)_AlarmL.B9"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 649
+y 501
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 25
+visPv "plcch11c21$(C)_AlarmL.BA"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 649
+y 523
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 25
+visPv "plcch11c21$(C)_AlarmL.BB"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 649
+y 544
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 25
+visPv "plcch11c21$(C)_AlarmL.BC"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 481
+w 15
+h 13
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 481
+w 15
+h 13
+lineColor index 20
+fill
+fillColor index 20
+lineWidth 0
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 481
+w 15
+h 13
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "CPSPL21$(C)_1"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 14
+y 147
+w 25
+h 18
+controlPv "plcch11c21$(C)_Alarm_Byp1B2"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 51
+editable
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 14
+y 173
+w 25
+h 18
+controlPv "plcch11c21$(C)_Alarm_Byp1B3"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 51
+editable
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 14
+y 199
+w 25
+h 18
+controlPv "plcch11c21$(C)_Alarm_Byp1B4"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 51
+editable
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 14
+y 225
+w 25
+h 18
+controlPv "plcch11c21$(C)_Alarm_Byp1B5"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 51
+editable
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 14
+y 251
+w 25
+h 18
+controlPv "plcch11c21$(C)_Alarm_Byp1B6"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 51
+editable
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 14
+y 277
+w 25
+h 18
+controlPv "plcch11c21$(C)_Alarm_Byp1B7"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 51
+editable
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 14
+y 302
+w 25
+h 18
+controlPv "plcch11c21$(C)_Alarm_Byp1B8"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 51
+editable
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 19
+y 416
+w 25
+h 18
+controlPv "plcch11c21$(C)_Alarm_Byp1B1"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 51
+editable
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 19
+y 486
+w 25
+h 18
+controlPv "plcch11c21$(C)_Alarm_Byp1B0"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 51
+editable
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 479
+y 479
+w 25
+h 18
+controlPv "plcch11c21$(C)_Alarm_Byp1B9"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 51
+editable
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 479
+y 500
+w 25
+h 18
+controlPv "plcch11c21$(C)_Alarm_Byp1BA"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 51
+editable
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 479
+y 521
+w 25
+h 18
+controlPv "plcch11c21$(C)_Alarm_Byp1BB"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 51
+editable
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 479
+y 542
+w 25
+h 18
+controlPv "plcch11c21$(C)_Alarm_Byp1BC"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 51
+editable
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+

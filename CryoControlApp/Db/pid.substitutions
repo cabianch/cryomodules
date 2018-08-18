@@ -1,0 +1,8 @@
+file 1pid.vdb
+{
+	pattern	{ PLC_NAME,     PRIM,  AREA, LOCA, TAGNAME,  PIDNUM  }
+		{ PLC_CP$(CP)2_CR1$(C), CPMP, CP$(CP)2 , 1$(C),  PMP21X , PMP21$(C) }
+		{ PLC_CP$(CP)2_CR1$(C), CPV,  CP$(CP)2, 1$(C)42,  PV21X42, PV21$(C)42}
+		{ PLC_CP$(CP)2_CR1$(C), CHV,  CP$(CP)2, 1$(C)47,  HV21X47, HV21$(C)47}
+		{ PLC_CP$(CP)2_CR1$(C), CHR,  CP$(CP)2, 1$(C)35,  HR21X35, HR21$(C)35}
+}

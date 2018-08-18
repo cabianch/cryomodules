@@ -1,0 +1,762 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 861
+y 116
+w 1040
+h 721
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 6
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 3
+y 69
+w 1055
+h 653
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 5
+w 1422
+h 59
+lineColor index 14
+fill
+fillColor index 64
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 11
+y 21
+w 204
+h 27
+font "helvetica-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CRYO Test Setup"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 40
+y 101
+w 995
+h 285
+lineColor index 9
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 49
+y 92
+w 143
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Temperature Module"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 66
+y 199
+w 253
+h 34
+controlPv "SIOC:DB01:CR01:CM1_SD0_T.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 330
+y 198
+w 114
+h 34
+controlPv "SIOC:DB01:CR0D:CM1_SD0_V"
+precision 4
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 68
+y 249
+w 253
+h 34
+controlPv "SIOC:DB01:CR01:EC1_CC0_T.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 331
+y 249
+w 113
+h 34
+controlPv "SIOC:DB01:CR0D:EC1_CC0_R"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 150
+y 131
+w 67
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Description"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 355
+y 130
+w 63
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Raw Value"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 419
+y 679
+w 197
+h 29
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "PLC Admin Display"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "/u/cd/dfairley/ws_epics/CryoControl/cryoControlApp/srcDisplay/plcAdminDisplay.edl"
+}
+symbols {
+  0 "IOC=SIOC:CDB1:CR01, PLC=PLC:CDB1:CR01"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 39
+y 418
+w 996
+h 247
+lineColor index 9
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 62
+y 411
+w 86
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Sensor Data"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 177
+y 445
+w 44
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Display"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 99
+y 474
+w 247
+h 29
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "CM1 Cernox 0 Display"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "/u/cd/dfairley/ws_epics/CryoTest/cryoTestApp/srcDisplay/cernox.edl"
+}
+symbols {
+  0 "IOC=SIOC:B34:CR01, PLC=PLC:CRYO:DB01, CMNUM=1, CXNUM=0"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 99
+y 524
+w 247
+h 29
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "CM1 Silicon Diode 0 Display"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "/u/cd/dfairley/ws_epics/CryoTest/cryoTestApp/srcDisplay/silicon_diode.edl"
+}
+symbols {
+  0 "IOC=SIOC:B34:CR01, PLC=PLC:CRYO:DB01, CMNUM=1, SDNUM=0"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 100
+y 575
+w 246
+h 29
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "CM1 Carbon Ceramic 0 Display"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "/u/cd/dfairley/ws_epics/CryoTest/cryoTestApp/srcDisplay/carbon_ceramic.edl"
+}
+symbols {
+  0 "IOC=SIOC:B34:CR01, PLC=PLC:CRYO:DB01, ECNUM=1, CCNUM=0"
+}
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 329
+y 326
+w 113
+h 34
+controlPv "SIOC:DB01:CR01:LAKESHOREVAL"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 68
+y 325
+w 253
+h 34
+controlPv "SIOC:DB01:CR01:LAKESHOREVAL.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 329
+y 147
+w 114
+h 34
+controlPv "SIOC:DB01:CR0D:CM1_CX0_R"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 65
+y 148
+w 253
+h 34
+controlPv "SIOC:DB01:CR01:CM1_CX0_T.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 456
+y 199
+w 114
+h 34
+controlPv "SIOC:DB01:CR01:CM1_SD0_T"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 457
+y 250
+w 113
+h 34
+controlPv "SIOC:DB01:CR01:EC1_CC0_T"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 495
+y 130
+w 32
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Value"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 455
+y 327
+w 113
+h 34
+controlPv "SIOC:DB01:CR01:LAKESHOREVAL"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 455
+y 147
+w 114
+h 34
+controlPv "SIOC:DB01:CR01:CM1_CX0_T"
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 618
+y 196
+w 219
+h 34
+controlPv "SIOC:DB01:CR01:DEVMONSD.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+lineWidth 0
+endObjectProperties
+
+# (Menu Button)
+object activeMenuButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 845
+y 197
+w 171
+h 32
+fgColor index 14
+bgColor index 3
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "SIOC:DB01:CR01:DEVMONSD"
+indicatorPv "SIOC:DB01:CR01:DEVMONSD"
+font "helvetica-medium-r-14.0"
+colorPv "SIOC:DB01:CR01:DEVMONSD"
+endObjectProperties
+
+# (Menu Button)
+object activeMenuButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 844
+y 144
+w 171
+h 32
+fgColor index 14
+bgColor index 3
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "SIOC:DB01:CR01:DEVMONCX"
+indicatorPv "SIOC:DB01:CR01:DEVMONCX"
+font "helvetica-medium-r-14.0"
+colorPv "SIOC:DB01:CR01:DEVMONCX"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 617
+y 145
+w 219
+h 34
+controlPv "SIOC:DB01:CR01:DEVMONCX.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+lineWidth 0
+endObjectProperties
+
+# (Menu Button)
+object activeMenuButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 844
+y 246
+w 171
+h 32
+fgColor index 14
+bgColor index 3
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "SIOC:DB01:CR01:DEVMONCCS"
+indicatorPv "SIOC:DB01:CR01:DEVMONCCS"
+font "helvetica-medium-r-14.0"
+colorPv "SIOC:DB01:CR01:DEVMONCCS"
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 617
+y 245
+w 219
+h 34
+controlPv "SIOC:DB01:CR01:DEVMONCCS.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "right"
+lineWidth 0
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 699
+y 480
+w 247
+h 29
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "Stress Test PVs  Test100 arrays"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "/u/cd/dfairley/ws_epics/CryoControl/cryoControlApp/srcDisplay/stressTestDisplay.edl"
+}
+symbols {
+  0 "H=1"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 699
+y 530
+w 247
+h 29
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "Stress Test PVs  Test200 arrays"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "/u/cd/dfairley/ws_epics/CryoControl/cryoControlApp/srcDisplay/stressTestDisplay.edl"
+}
+symbols {
+  0 "H=2"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 700
+y 578
+w 247
+h 29
+fgColor index 14
+bgColor index 3
+topShadowColor index 0
+botShadowColor index 14
+font "helvetica-bold-r-14.0"
+buttonLabel "Stress Test PVs  Test300 arrays"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "/u/cd/dfairley/ws_epics/CryoControl/cryoControlApp/srcDisplay/stressTestDisplay.edl"
+}
+symbols {
+  0 "H=3"
+}
+endObjectProperties
+

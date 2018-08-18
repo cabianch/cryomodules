@@ -1,0 +1,37 @@
+#==============================================================================
+#
+# Abs:  Database template for plcAdmin.
+#
+# Name:  cryoControl_plcAdmin.substitutions
+#
+# Macros In:
+#	PLC       Name of ether_ip connection to PLC as defined in st.cmd, tag name 	
+#	PLCNAME   EPICS name of PLC (should be PLC:<SUBSYSTEM>:<AREA>)
+#	ARRAY  	  Name of plcAdmin array on PLC (should be PLCADMIN_PLC_<subsystem>_<area>)
+#	SUBSYSTEM Name of subsystem (MAGNET, VACUUM, PPS, WATER)
+#	VERMAJ    First part of PLC logic version.  (Format for version number is MAJ.MIN.REV)
+#	VERMIN    Second part of PLC logic version.  (Format for version number is MAJ.MIN.REV)
+#	VERREV    Third part of PLC logic version.  (Format for version number is MAJ.MIN.REV)
+#
+# Macros Out:
+#       P_NAME		- PLC EPICS name in SLAC notation eg. PLC:CP12:CR14
+#       PLC_NAME	- PLC Tag Name  ex) PLC_CP12_CP14
+#
+#==============================================================================
+#
+#
+file plcAdminControlLogix.template
+{
+   pattern {  PLC        , PLCNAME  , ARRAY                , SUBSYSTEM , VERMAJ , VERMIN , VERREV }
+           { $(PLC_NAME) , $(P_NAME), PLCADMIN_$(PLC_NAME) , CRYO      ,      1 ,      0 ,      0 }
+}
+#
+# 
+#
+file eip_stat.db
+{
+   pattern {  PLC         , TAG                  , IOC                   }
+#           {  $(PLC_NAME) , PLCADMIN_PLC_CP12_CR13 , $(P_NAME) }
+           {  $(PLC_NAME) , PLCADMIN_$(PLC_NAME) , $(P_NAME) }
+}
+

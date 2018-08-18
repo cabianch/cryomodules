@@ -1,0 +1,18 @@
+
+#==============================================================
+#
+#  Name: RELEASE_NOTES
+#
+#  Rem:  This files describes release notes for
+#        the CryoControl IOC Applications.
+#
+#  Auth: xx-Dec-2012, D. Fairley         (dfairley)
+#  Rev:  dd-mmm-yyyy, Reviewer's Name    (USERNAME)
+#
+#        17-Aug-2018, Carolina Bianchini (carolina)
+#		 
+#--------------------------------------------------------------
+#17-Aug-2018, 	Carolina Bianchini (carolina)
+# 	     	-cryomodules application first release
+# 	     	-etherip module is used for PLC communication
+# 	     	-Please keep this copy always sync with LERF & gitHub 

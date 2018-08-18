@@ -1,0 +1,155 @@
+#==============================================================================
+#
+# Abs:  Database template for warm compressor AIs
+#
+# Name:  wcmp_AI.substitutions
+# Desc:  substitution file for warm compressor analog inputs
+#
+# Macros In:
+# PIDNUM	P&ID number of instrument on warm compressor P&ID
+# PLC_NAME  Name of ether_ip connection to PLC as defined in st.cmd, tag name 	
+# TAG_NAME	plc tag name for instrument output
+# AREA		area for warm compressor, CP12
+# LOCA		location for warm compressor, CR14
+# DESC		description of analog input
+#
+# Macros Out:
+# PLC_NAME	Name of ether_ip connection to PLC as defined in st.cmd, tag name
+# AREA		area for warm compressor, CP12
+# CMPNUM	warm compressor number 
+#
+#==============================================================================
+#
+# platinum RTD temperature
+file ctp_temp.vdb
+{
+   pattern {  PIDNUM         ,   PLC_NAME  , TAG_NAME , AREA   , LOCA,           DESC                 }
+           {  TP21$(CMPNUM)01,  $(PLC_NAME), TP21X01, CP$(CP)2, 1$(CMPNUM)01,  "Inlet Temperature"     }
+           {  TP21$(CMPNUM)12,  $(PLC_NAME), TP21X12, CP$(CP)2, 1$(CMPNUM)12,  "Discharge Temperature" }
+           {  TP21$(CMPNUM)16,  $(PLC_NAME), TP21X16, CP$(CP)2, 1$(CMPNUM)16,  "Oil Tank Discharge Tp"}
+           {  TP21$(CMPNUM)17,  $(PLC_NAME), TP21X17, CP$(CP)2, 1$(CMPNUM)17,  "Skid Discharge Temp"   } 
+           {  TP21$(CMPNUM)30,  $(PLC_NAME), TP21X30, CP$(CP)2, 1$(CMPNUM)30,  "Oil Tank Temperature" }
+           {  TP21$(CMPNUM)35,  $(PLC_NAME), TP21X35, CP$(CP)2, 1$(CMPNUM)35,  "Oil Temperature"    }
+           {  TP21$(CMPNUM)35C, $(PLC_NAME), TP21X35C,CP$(CP)2, 1$(CMPNUM)35:C,"Oil Temp after Heater" }
+           {  TP21$(CMPNUM)60,  $(PLC_NAME), TP21X60, CP$(CP)2, 1$(CMPNUM)60,  "Water Supply Temp"    }
+           {  TP21$(CMPNUM)61,  $(PLC_NAME), TP21X61, CP$(CP)2, 1$(CMPNUM)61,  "Intermediate Water Tp"}
+           {  TP21$(CMPNUM)62,  $(PLC_NAME), TP21X62, CP$(CP)2, 1$(CMPNUM)62,  "Water Return Temp" }
+           {  TP21$(CMPNUM)A,   $(PLC_NAME), TP21XA,  CP$(CP)2, 1$(CMPNUM)A,   "Motor Winding Temp #1" }
+           {  TP21$(CMPNUM)B,   $(PLC_NAME), TP21XB,  CP$(CP)2, 1$(CMPNUM)B,   "Motor Winding Temp #2" }
+           {  TP21$(CMPNUM)C,  	$(PLC_NAME), TP21XC,  CP$(CP)2, 1$(CMPNUM)C,   "Motor Winding Temp #3" }
+           {  TP21$(CMPNUM)D,  	$(PLC_NAME), TP21XD,  CP$(CP)2, 1$(CMPNUM)D,   "Motor Bearing Temp #1" }
+           {  TP21$(CMPNUM)E,  	$(PLC_NAME), TP21XE,  CP$(CP)2, 1$(CMPNUM)E,   "Motor Bearing Temp #2" } 
+}
+#
+# differential temp
+#
+file cdt_temp.vdb
+{
+   pattern {  PIDNUM         ,   PLC_NAME  , TAG_NAME , AREA   , LOCA,           DESC                 }
+           {  DT21$(CMPNUM)61,  $(PLC_NAME), DT21X61, CP$(CP)2, 1$(CMPNUM)61,   "Intermediate Wtr Temp" } 
+           {  DT21$(CMPNUM)62,  $(PLC_NAME), DT21X62, CP$(CP)2, 1$(CMPNUM)62,   "Cooling Wtr Rtrn Temp" } 
+}
+#
+# pressure
+#
+file cpt_pressure.vdb
+{
+   pattern {  PIDNUM         ,   PLC_NAME  , TAG_NAME , AREA , LOCA,           DESC                  }
+           {  PT21$(CMPNUM)01,  $(PLC_NAME), PT21X01, CP$(CP)2, 1$(CMPNUM)01, "Cmpr Suction Pressure" }
+           {  PT21$(CMPNUM)12,  $(PLC_NAME), PT21X12, CP$(CP)2, 1$(CMPNUM)12, "Cmpr Discharge Press." }
+           {  PT21$(CMPNUM)13,  $(PLC_NAME), PT21X13, CP$(CP)2, 1$(CMPNUM)13, "Oil Tank Pressure    " }
+           {  PT21$(CMPNUM)17,  $(PLC_NAME), PT21X17, CP$(CP)2, 1$(CMPNUM)17, "Skid Discharge Press." }
+           {  PT21$(CMPNUM)35,  $(PLC_NAME), PT21X35, CP$(CP)2, 1$(CMPNUM)35, "Oil Pressure         " }
+           {  PT21$(CMPNUM)37,  $(PLC_NAME), PT21X37, CP$(CP)2, 1$(CMPNUM)37, "Oil Discharge Press. " }
+           {  PT21$(CMPNUM)46,  $(PLC_NAME), PT21X46, CP$(CP)2, 1$(CMPNUM)46, "Bearing Oil Inj Press" }
+           {  PT21$(CMPNUM)42,  $(PLC_NAME), PT21X42, CP$(CP)2, 1$(CMPNUM)42, "Cooling Oil Inj Press" }
+           {  PT21$(CMPNUM)61,  $(PLC_NAME), PT21X61, CP$(CP)2, 1$(CMPNUM)61, "Cooling Water Press. " }
+}
+#
+# Liquid Level - NOT THERE? 1/5/2017
+#
+#file cll.vdb
+#{
+#   pattern {  PIDNUM         ,   PLC_NAME  , TAG_NAME , AREA , LOCA,           DESC                  }
+#           {  LL21$(CMPNUM)13,  $(PLC_NAME), LL21X13, $(AREA), 1$(CMPNUM)13, "Liquid Level" }
+#
+#
+#differential pressure - two kinds?
+#
+file cpdt_diff_pressure.vdb
+{
+   pattern {  PIDNUM          ,   PLC_NAME , TAG_NAME    , AREA   , LOCA        ,    DESC                 }
+           {  PDT21$(CMPNUM)46, $(PLC_NAME), PDT21X46    , CP$(CP)2, 1$(CMPNUM)46, "Bearing Oil Diff Pres" }
+}
+file cdp_diff_pressure.vdb
+{
+   pattern {  PIDNUM          ,   PLC_NAME , TAG_NAME    , AREA   , LOCA        ,    DESC                 }
+           {   DP21$(CMPNUM)39, $(PLC_NAME), DP21X39    , CP$(CP)2, 1$(CMPNUM)39, "High DP FL21X39" }
+           {   DP21$(CMPNUM)41, $(PLC_NAME), DP21X41    , CP$(CP)2, 1$(CMPNUM)41, "High DP FL21X41" }
+           {   DP21$(CMPNUM)42, $(PLC_NAME), DP21X42    , CP$(CP)2, 1$(CMPNUM)42, "Cooling Oil Manif DPr" }
+}
+#
+# warm compressor motor readbacks
+#
+file cwcm_current.vdb
+{
+   pattern {  PIDNUM          ,   PLC_NAME  , TAG_NAME     , AREA   , LOCA       ,  DESC                }
+           {  JTMOT21$(CMPNUM),  $(PLC_NAME), JTMOT21X     , CP$(CP)2, 1$(CMPNUM), "Main Motor Current"  }
+}
+#
+file cwcm_power.vdb
+{
+   pattern {  PIDNUM          ,   PLC_NAME  , TAG_NAME     , AREA   , LOCA       ,  DESC                }
+           {  WM21$(CMPNUM),     (PLC_NAME) , WM21X        , CP$(CP)2, 1$(CMPNUM), "Main Motor Power"  }
+}
+#
+#  valve readback
+#
+file czt_valve_rb.vdb
+{
+   pattern {  PIDNUM         ,   PLC_NAME  , TAG_NAME     , AREA   , LOCA        ,  DESC                }
+           {  ZT21$(CMPNUM)47,  $(PLC_NAME), ZT21X47      , CP$(CP)2, 1$(CMPNUM)47, "Slide Valve Readback" }
+}
+#
+# oil pump vdf frequency
+#
+file cvfd_freq.vdb
+{
+   pattern {  PIDNUM     ,   PLC_NAME  , TAG_NAME     , AREA   , LOCA       , DESC                }
+           {  OPVFDF21$(CMPNUM),  $(PLC_NAME), OPVFDF21X    , CP$(CP)2, 1$(CMPNUM), "Oil Pump VFD Freq"}
+}
+# oil pump vdf power
+#
+file cvfd_pwr.vdb
+{
+   pattern {  PIDNUM     ,   PLC_NAME  , TAG_NAME     , AREA   , LOCA       , DESC                }
+           {  OPVFDP21$(CMPNUM),  $(PLC_NAME), OPVFDP21X    , CP$(CP)2, 1$(CMPNUM), "Oil Pump VFD Power"}
+}
+#
+# thermocouple temperature
+#
+file ctc_temp.vdb 
+{
+   pattern {  PIDNUM          ,   PLC_NAME  , TAG_NAME     , AREA   , LOCA  , DESC                      }
+           {  TC21$(CMPNUM)35B,  $(PLC_NAME), TC21X35B, CP$(CP)2, 1$(CMPNUM)35:B,"Oil Temp after Heater" }
+}
+#
+#
+#
+# thermocouple temperature
+#
+file generic_AI.vdb 
+{
+   pattern {  PRIM,   PLC_NAME  , TAG_NAME              , AREA   , LOCA      , ATTRIB,     DESC                  , EGU             }
+           {  WCMP,  $(PLC_NAME), Load_Limit_TMR_Sec, CP$(CP)2, 1$(CMPNUM), LLTMR,     "Load Limit Tmr Sec "  , s  }
+           {  WCMP,  $(PLC_NAME), CO21X             , CP$(CP)2, 1$(CMPNUM), STATUS,    "Compressor ON/OFF"    , "" }
+           {  CPMP,  $(PLC_NAME), OP21X             , CP$(CP)2, 1$(CMPNUM), STATUS,    "Oil pump ON/OFF"      , "" }
+           {  CZT,   $(PLC_NAME), ZSH21X47          , CP$(CP)2, 1$(CMPNUM)47,UPPER_SW, "Valve max pos switch" , "" }
+           {  CZT,   $(PLC_NAME), ZSH21X47          , CP$(CP)2, 1$(CMPNUM)47,LOWER_SW, "Valve min pos switch" , "" }
+           {  COH,   $(PLC_NAME), OHC21X35          , CP$(CP)2, 1$(CMPNUM)35,CONTACTOR,"Oil heater contactor" , "" }
+           {  WCMP,  $(PLC_NAME), COMP21X_RedALM    , CP$(CP)2, 1$(CMPNUM), RED_ALM,   "Compressor red alarm" , "" }
+}
+# 
+#end of file
+#
+

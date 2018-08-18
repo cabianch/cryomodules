@@ -1,0 +1,969 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 898
+y 179
+w 866
+h 686
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-18.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 6
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 3
+y 69
+w 885
+h 605
+lineColor index 14
+fill
+fillColor index 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 5
+w 887
+h 59
+lineColor index 14
+fill
+fillColor index 64
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 11
+y 21
+w 503
+h 27
+font "helvetica-bold-r-24.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Stress Test data display: Test$(H)00 arrays"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 40
+y 100
+w 795
+h 539
+lineColor index 9
+fillColor index 0
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 49
+y 92
+w 203
+h 16
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Stress Test Arrays Test$(H)xx"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 201
+y 144
+w 93
+h 34
+controlPv "Test$(H)20_5"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 43
+y 144
+w 146
+h 34
+controlPv "Test$(H)20_5.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 59
+y 125
+w 67
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+value {
+  "Description"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 229
+y 125
+w 32
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Value"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 464
+y 144
+w 93
+h 34
+controlPv "Test$(H)37_2"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 306
+y 144
+w 146
+h 34
+controlPv "Test$(H)37_2.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 322
+y 125
+w 67
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+value {
+  "Description"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 492
+y 125
+w 32
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Value"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 726
+y 144
+w 93
+h 34
+controlPv "Test$(H)56_7"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 568
+y 144
+w 146
+h 34
+controlPv "Test$(H)56_7.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 584
+y 125
+w 67
+h 14
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 3
+value {
+  "Description"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 754
+y 125
+w 32
+h 14
+font "helvetica-bold-r-12.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Value"
+}
+autoSize
+lineWidth 3
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 724
+y 220
+w 93
+h 34
+controlPv "Test$(H)64_6"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 566
+y 220
+w 146
+h 34
+controlPv "Test$(H)64_6.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 462
+y 220
+w 93
+h 34
+controlPv "Test$(H)43_3"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 304
+y 220
+w 146
+h 34
+controlPv "Test$(H)43_3.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 199
+y 220
+w 93
+h 34
+controlPv "Test$(H)11_1"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 41
+y 220
+w 146
+h 34
+controlPv "Test$(H)11_1.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 727
+y 301
+w 93
+h 34
+controlPv "Test$(H)98_9"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 569
+y 301
+w 146
+h 34
+controlPv "Test$(H)98_9.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 465
+y 301
+w 93
+h 34
+controlPv "Test$(H)85_8"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 307
+y 301
+w 146
+h 34
+controlPv "Test$(H)85_8.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 202
+y 301
+w 93
+h 34
+controlPv "Test$(H)72_4"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 44
+y 301
+w 146
+h 34
+controlPv "Test$(H)72_4.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 200
+y 365
+w 93
+h 34
+controlPv "Test$(H)29_3"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 42
+y 365
+w 146
+h 34
+controlPv "Test$(H)29_3.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 463
+y 365
+w 93
+h 34
+controlPv "Test$(H)32_8"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 305
+y 365
+w 146
+h 34
+controlPv "Test$(H)32_8.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 725
+y 365
+w 93
+h 34
+controlPv "Test$(H)54_3"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 567
+y 365
+w 146
+h 34
+controlPv "Test$(H)54_3.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 723
+y 441
+w 93
+h 34
+controlPv "Test$(H)66_6"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 565
+y 441
+w 146
+h 34
+controlPv "Test$(H)66_6.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 461
+y 441
+w 93
+h 34
+controlPv "Test$(H)47_6"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 303
+y 441
+w 146
+h 34
+controlPv "Test$(H)47_6.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 198
+y 441
+w 93
+h 34
+controlPv "Test$(H)19_9"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 43
+y 441
+w 146
+h 34
+controlPv "Test$(H)19_9.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 726
+y 522
+w 93
+h 34
+controlPv "Test$(H)92_4"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 568
+y 522
+w 146
+h 34
+controlPv "Test$(H)92_4.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 464
+y 522
+w 93
+h 34
+controlPv "Test$(H)81_3"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 306
+y 522
+w 146
+h 34
+controlPv "Test$(H)81_3.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 201
+y 522
+w 93
+h 34
+controlPv "Test$(H)77_8"
+displayMode "decimal"
+precision 6
+fgColor index 16
+fgAlarm
+bgColor index 12
+fill
+font "helvetica-medium-r-14.0"
+fontAlign "center"
+lineWidth 2
+endObjectProperties
+
+# (Text Update)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 43
+y 522
+w 146
+h 34
+controlPv "Test$(H)77_8.DESC"
+fgColor index 14
+bgColor index 3
+fill
+font "helvetica-bold-r-12.0"
+fontAlign "center"
+lineWidth 0
+endObjectProperties
+

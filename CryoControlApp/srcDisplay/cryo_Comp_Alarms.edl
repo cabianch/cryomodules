@@ -1,0 +1,9099 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 761
+y 394
+w 1140
+h 750
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-8.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 4
+textColor index 14
+ctlFgColor1 index 30
+ctlFgColor2 index 32
+ctlBgColor1 index 34
+ctlBgColor2 index 35
+topShadowColor index 37
+botShadowColor index 44
+showGrid
+snapToGrid
+gridSize 5
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 585
+y 630
+w 75
+h 15
+lineColor index 25
+fill
+fillColor index 25
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 630
+w 75
+h 16
+controlPv "VFDP:CP$(CP)2:1$(C):PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+useDisplayBg
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 585
+y 580
+w 75
+h 15
+lineColor index 25
+fill
+fillColor index 25
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 580
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)35:C:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+useDisplayBg
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 585
+y 530
+w 75
+h 15
+lineColor index 25
+fill
+fillColor index 25
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 530
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)35:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+useDisplayBg
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 585
+y 480
+w 75
+h 15
+lineColor index 25
+fill
+fillColor index 25
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 480
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)17:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+useDisplayBg
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 585
+y 430
+w 75
+h 15
+lineColor index 25
+fill
+fillColor index 25
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 430
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)E:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+useDisplayBg
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 585
+y 380
+w 75
+h 15
+lineColor index 25
+fill
+fillColor index 25
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 380
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)D:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+useDisplayBg
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 585
+y 335
+w 75
+h 15
+lineColor index 25
+fill
+fillColor index 25
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 335
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)C:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+useDisplayBg
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 585
+y 285
+w 75
+h 15
+lineColor index 25
+fill
+fillColor index 25
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 285
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)B:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+useDisplayBg
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 585
+y 235
+w 75
+h 15
+lineColor index 25
+fill
+fillColor index 25
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 235
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)A:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+useDisplayBg
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 675
+w 75
+h 15
+lineColor index 25
+fill
+fillColor index 25
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 0
+y 675
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)16:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+useDisplayBg
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 582
+w 75
+h 15
+lineColor index 25
+fill
+fillColor index 25
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 529
+w 75
+h 15
+lineColor index 25
+fill
+fillColor index 25
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 5
+y 530
+w 75
+h 16
+controlPv "CDT:CP$(CP)2:1$(C)61:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+useDisplayBg
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 482
+w 75
+h 15
+lineColor index 25
+fill
+fillColor index 25
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 5
+y 485
+w 75
+h 15
+controlPv "CTP:CP$(CP)2:1$(C)60:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+useDisplayBg
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 287
+w 75
+h 15
+lineColor index 25
+fill
+fillColor index 25
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 236
+w 75
+h 15
+lineColor index 25
+fill
+fillColor index 25
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 0
+y 235
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)12:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+useDisplayBg
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 135
+w 75
+h 15
+lineColor index 25
+fill
+fillColor index 25
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 5
+y 135
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)01:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+useDisplayBg
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 0
+w 1140
+h 40
+lineColor index 14
+fill
+fillColor index 63
+lineWidth 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 5
+y 10
+w 1130
+h 20
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CP$(CP) MAIN COMPRESSOR21$(C) ALARMS"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 0
+y 60
+w 100
+h 16
+controlPv "PLC:CP$(CP)2:1$(C):LR_STATUS"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 60
+w 100
+h 15
+lineColor index 20
+fillColor index 20
+lineWidth 2
+visPv "CALC\\\{(A)\}(PLC:CP$(CP)2:1$(C):LR_STATUS)"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 7
+y 4
+w 120
+h 16
+controlPv "iocch11:date"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 19
+useDisplayBg
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 141
+y 18
+w 0
+h 0
+lineColor index 9
+fillColor index 34
+lineWidth 2
+arrows "to"
+numPoints 1
+xPoints {
+  0 141
+}
+yPoints {
+  0 18
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 0
+y 40
+w 100
+h 20
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "plc Status:"
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 570
+y 75
+w 2
+h 652
+lineColor index 9
+fillColor index 9
+lineWidth 3
+numPoints 2
+xPoints {
+  0 570
+  1 570
+}
+yPoints {
+  0 76
+  1 723
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 485
+w 430
+h 18
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 125
+y 485
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)60:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 215
+y 485
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)60:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 310
+y 485
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)60:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 405
+y 485
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)60:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 505
+y 485
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)60:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 486
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)60:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 265
+y 486
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)60:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 455
+y 486
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)60:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 360
+y 486
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)60:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 190
+w 430
+h 18
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 125
+y 190
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)12:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 215
+y 190
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)12:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 310
+y 190
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)12:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 405
+y 190
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)12:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 505
+y 190
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)12:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 191
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CPT:CP$(CP)2:1$(C)12:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 265
+y 191
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CPT:CP$(CP)2:1$(C)12:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 455
+y 191
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CPT:CP$(CP)2:1$(C)12:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 360
+y 191
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CPT:CP$(CP)2:1$(C)12:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 140
+w 430
+h 18
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 125
+y 140
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)01:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 215
+y 140
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)01:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 310
+y 140
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)01:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 405
+y 140
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)01:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 505
+y 140
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)01:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 141
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)01:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 265
+y 141
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)01:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 455
+y 141
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)01:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 360
+y 141
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)01:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 240
+w 430
+h 18
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 125
+y 240
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)12:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 215
+y 240
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)12:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 310
+y 240
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)12:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 405
+y 240
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)12:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 505
+y 240
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)12:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 241
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)12:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 265
+y 241
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)12:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 455
+y 241
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)12:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 360
+y 241
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)12:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 290
+w 430
+h 18
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 125
+y 290
+w 50
+h 18
+controlPv "CTC:CP$(CP)2:1$(C)35:B:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 215
+y 290
+w 50
+h 18
+controlPv "CTC:CP$(CP)2:1$(C)35:B:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 310
+y 290
+w 50
+h 18
+controlPv "CTC:CP$(CP)2:1$(C)35:B:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 405
+y 290
+w 50
+h 18
+controlPv "CTC:CP$(CP)2:1$(C)35:B:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 505
+y 290
+w 50
+h 18
+controlPv "CTC:CP$(CP)2:1$(C)35:B:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 291
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTC:CP$(CP)2:1$(C)35:B:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 265
+y 291
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTC:CP$(CP)2:1$(C)35:B:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 455
+y 291
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTC:CP$(CP)2:1$(C)35:B:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 360
+y 291
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTC:CP$(CP)2:1$(C)35:B:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 385
+w 430
+h 18
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 125
+y 385
+w 50
+h 18
+controlPv "CDP:CP$(CP)2:1$(C)42:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 215
+y 385
+w 50
+h 18
+controlPv "CDP:CP$(CP)2:1$(C)42:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 310
+y 385
+w 50
+h 18
+controlPv "CDP:CP$(CP)2:1$(C)42:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 405
+y 385
+w 50
+h 18
+controlPv "CDP:CP$(CP)2:1$(C)42:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 505
+y 385
+w 50
+h 18
+controlPv "CDP:CP$(CP)2:1$(C)42:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 386
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CDP:CP$(CP)2:1$(C)42:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 265
+y 386
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CDP:CP$(CP)2:1$(C)42:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 455
+y 386
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CDP:CP$(CP)2:1$(C)42:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 360
+y 386
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CDP:CP$(CP)2:1$(C)42:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 930
+y 710
+w 55
+h 25
+fgColor index 14
+onColor index 31
+offColor index 33
+topShadowColor index 0
+botShadowColor index 14
+controlPv "WCMP:CP$(CP)2:1$(C):ALM_RESET"
+pressValue "1"
+releaseValue "0"
+onLabel "RESET"
+offLabel "RESET"
+3d
+useEnumNumeric
+font "helvetica-medium-r-14.0"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 535
+w 430
+h 18
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 125
+y 535
+w 50
+h 18
+controlPv "CDT:CP$(CP)2:1$(C)61:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 215
+y 535
+w 50
+h 18
+controlPv "CDT:CP$(CP)2:1$(C)61:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 310
+y 535
+w 50
+h 18
+controlPv "CDT:CP$(CP)2:1$(C)61:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 405
+y 535
+w 50
+h 18
+controlPv "CDT:CP$(CP)2:1$(C)61:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 505
+y 535
+w 50
+h 18
+controlPv "CDT:CP$(CP)2:1$(C)61:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 536
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CDT:CP$(CP)2:1$(C)61:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 265
+y 536
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CDT:CP$(CP)2:1$(C)61:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 455
+y 536
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CDT:CP$(CP)2:1$(C)61:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 360
+y 536
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CDT:CP$(CP)2:1$(C)61:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 585
+w 430
+h 18
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 125
+y 585
+w 50
+h 18
+controlPv "CDT:CP$(CP)2:1$(C)62:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 215
+y 585
+w 50
+h 18
+controlPv "CDT:CP$(CP)2:1$(C)62:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 310
+y 585
+w 50
+h 18
+controlPv "CDT:CP$(CP)2:1$(C)62:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 405
+y 585
+w 50
+h 18
+controlPv "CDT:CP$(CP)2:1$(C)62:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 505
+y 585
+w 50
+h 18
+controlPv "CDT:CP$(CP)2:1$(C)62:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 586
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CDT:CP$(CP)2:1$(C)62:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 265
+y 586
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CDT:CP$(CP)2:1$(C)62:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 455
+y 586
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CDT:CP$(CP)2:1$(C)62:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 360
+y 586
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CDT:CP$(CP)2:1$(C)62:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 635
+w 430
+h 18
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 125
+y 635
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)61:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 215
+y 635
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)61:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 310
+y 635
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)61:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 405
+y 635
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)61:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 505
+y 635
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)61:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 636
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CPT:CP$(CP)2:1$(C)61:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 265
+y 636
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CPT:CP$(CP)2:1$(C)61:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 455
+y 636
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CPT:CP$(CP)2:1$(C)61:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 360
+y 636
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CPT:CP$(CP)2:1$(C)61:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 125
+y 680
+w 430
+h 18
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 125
+y 680
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)16:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 215
+y 680
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)16:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 310
+y 680
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)16:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 405
+y 680
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)16:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 505
+y 680
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)16:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 681
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)16:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 265
+y 681
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)16:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 455
+y 681
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)16:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 360
+y 681
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)16:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 705
+y 45
+w 430
+h 30
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 705
+y 45
+w 55
+h 30
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Low Low"
+  " Alarm"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 795
+y 45
+w 55
+h 30
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  " Low "
+  "Alarm"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 895
+y 45
+w 55
+h 30
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "High "
+  "Alarm"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 980
+y 45
+w 65
+h 30
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "High High"
+  "  Alarm"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 1090
+y 45
+w 45
+h 30
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Latch"
+  "Time"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 705
+y 90
+w 430
+h 18
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 705
+y 90
+w 50
+h 18
+controlPv "CDP:CP$(CP)2:1$(C)41:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 795
+y 90
+w 50
+h 18
+controlPv "CDP:CP$(CP)2:1$(C)41:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 890
+y 90
+w 50
+h 18
+controlPv "CDP:CP$(CP)2:1$(C)41:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 985
+y 90
+w 50
+h 18
+controlPv "CDP:CP$(CP)2:1$(C)41:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 1085
+y 90
+w 50
+h 18
+controlPv "CDP:CP$(CP)2:1$(C)41:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 755
+y 91
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CDP:CP$(CP)2:1$(C)41:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 845
+y 91
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CDP:CP$(CP)2:1$(C)41:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1035
+y 91
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CDP:CP$(CP)2:1$(C)41:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 940
+y 91
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CDP:CP$(CP)2:1$(C)41:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 705
+y 140
+w 430
+h 18
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 705
+y 140
+w 50
+h 18
+controlPv "CDP:CP$(CP)2:1$(C)39:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 795
+y 140
+w 50
+h 18
+controlPv "CDP:CP$(CP)2:1$(C)39:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 890
+y 140
+w 50
+h 18
+controlPv "CDP:CP$(CP)2:1$(C)39:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 985
+y 140
+w 50
+h 18
+controlPv "CDP:CP$(CP)2:1$(C)39:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 1085
+y 140
+w 50
+h 18
+controlPv "CDP:CP$(CP)2:1$(C)39:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 755
+y 141
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CDP:CP$(CP)2:1$(C)39:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 845
+y 141
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CDP:CP$(CP)2:1$(C)39:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1035
+y 141
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CDP:CP$(CP)2:1$(C)39:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 940
+y 141
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CDP:CP$(CP)2:1$(C)39:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 705
+y 190
+w 430
+h 18
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 705
+y 190
+w 50
+h 18
+controlPv "CJTM:CP$(CP)2:1$(C):LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 795
+y 190
+w 50
+h 18
+controlPv "CJTM:CP$(CP)2:1$(C):LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 890
+y 190
+w 50
+h 18
+controlPv "CJTM:CP$(CP)2:1$(C):HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 985
+y 190
+w 50
+h 18
+controlPv "CJTM:CP$(CP)2:1$(C):HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 1085
+y 190
+w 50
+h 18
+controlPv "CJTM:CP$(CP)2:1$(C):LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 755
+y 191
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CJTM:CP$(CP)2:1$(C):ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 845
+y 191
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CJTM:CP$(CP)2:1$(C):ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1035
+y 191
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CJTM:CP$(CP)2:1$(C):ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 940
+y 191
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CJTM:CP$(CP)2:1$(C):ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 125
+y 50
+w 55
+h 30
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Low Low"
+  " Alarm"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 215
+y 50
+w 55
+h 30
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  " Low "
+  "Alarm"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 315
+y 50
+w 55
+h 30
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "High "
+  "Alarm"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 400
+y 50
+w 65
+h 30
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "High High"
+  "  Alarm"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 510
+y 50
+w 45
+h 30
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Latch"
+  "Time"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 915
+y 685
+w 80
+h 25
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Latch Reset"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 150
+w 75
+h 16
+controlPv "CDP:CP$(CP)2:1$(C)39:DIFF_PRESSURE"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 585
+y 135
+w 74
+h 15
+lineColor index 14
+fill
+fillColor index 14
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 200
+w 75
+h 16
+controlPv "CJTM:CP$(CP)2:1$(C):CURRENT"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 585
+y 185
+w 75
+h 15
+lineColor index 0
+fill
+fillColor index 0
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 236
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CTP:CP$(CP)2:1$(C)12:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 251
+w 15
+h 15
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 251
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)12:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 251
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)12:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 336
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CPDT:CP$(CP)2:1$(C)46:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 351
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CPDT:CP$(CP)2:1$(C)46:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 351
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CPDT:CP$(CP)2:1$(C)46:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 380
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CDP:CP$(CP)2:1$(C)42:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 395
+w 15
+h 15
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 395
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CDP:CP$(CP)2:1$(C)42:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 395
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CDP:CP$(CP)2:1$(C)42:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 430
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CPT:CP$(CP)2:1$(C)42:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 445
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CPT:CP$(CP)2:1$(C)42:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 445
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CPT:CP$(CP)2:1$(C)42:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 482
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CTP:CP$(CP)2:1$(C)60:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 497
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)60:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 497
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)60:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 529
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CDT:CP$(CP)2:1$(C)61:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 544
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CDT:CP$(CP)2:1$(C)61:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 544
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CDT:CP$(CP)2:1$(C)61:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 582
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CDT:CP$(CP)2:1$(C)61:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 597
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CDT:CP$(CP)2:1$(C)62:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 597
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CDT:CP$(CP)2:1$(C)62:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 77
+y 630
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CPT:CP$(CP)2:1$(C)61:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 77
+y 645
+w 15
+h 15
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 77
+y 645
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CPT:CP$(CP)2:1$(C)61:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 77
+y 645
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CPT:CP$(CP)2:1$(C)61:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 675
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CTP:CP$(CP)2:1$(C)16:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 690
+w 15
+h 15
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 690
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)16:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 690
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)16:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 660
+y 135
+w 14
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CDP:CP$(CP)2:1$(C)39:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 660
+y 150
+w 14
+h 15
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 660
+y 150
+w 14
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CDP:CP$(CP)2:1$(C)39:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 660
+y 150
+w 14
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CDP:CP$(CP)2:1$(C)39:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 185
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CJTM:CP$(CP)2:1$(C):LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 200
+w 15
+h 15
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 200
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CJTM:CP$(CP)2:1$(C):ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 200
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CJTM:CP$(CP)2:1$(C):ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 84
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CPT:CP$(CP)2:1$(C)01:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 115
+y 115
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CPT:CP$(CP)2:1$(C)01:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 100
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 3
+fillAlarm
+alarmPv "CPT:CP$(CP)2:1$(C)01:ALM"
+visPv "CPT:CP$(CP)2:1$(C)01:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 83
+w 75
+h 15
+lineColor index 14
+fill
+fillColor index 14
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 2
+y 99
+w 75
+h 16
+controlPv "CPT:CP$(CP)2:1$(C)01:PRESSURE"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 2
+y 251
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)12:TEMP"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 336
+w 75
+h 15
+lineColor index 14
+fill
+fillColor index 14
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 2
+y 352
+w 75
+h 16
+controlPv "CPDT:CP$(CP)2:1$(C)46:DIFF_PRESSURE"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 125
+y 340
+w 50
+h 18
+controlPv "CPDT:CP$(CP)2:1$(C)46:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 215
+y 340
+w 50
+h 18
+controlPv "CPDT:CP$(CP)2:1$(C)46:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 310
+y 340
+w 50
+h 18
+controlPv "CPDT:CP$(CP)2:1$(C)46:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 405
+y 340
+w 50
+h 18
+controlPv "CPDT:CP$(CP)2:1$(C)46:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 505
+y 340
+w 50
+h 18
+controlPv "CPDT:CP$(CP)2:1$(C)46:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 341
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CPDT:CP$(CP)2:1$(C)46:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 265
+y 341
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CPDT:CP$(CP)2:1$(C)46:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 455
+y 341
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CPDT:CP$(CP)2:1$(C)46:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 360
+y 341
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CPDT:CP$(CP)2:1$(C)46:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 380
+w 75
+h 15
+lineColor index 14
+fill
+fillColor index 14
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 2
+y 395
+w 75
+h 16
+controlPv "CDP:CP$(CP)2:1$(C)42:DIFF_PRESSURE"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 430
+w 75
+h 15
+lineColor index 14
+fill
+fillColor index 14
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 2
+y 446
+w 75
+h 16
+controlPv "CPT:CP$(CP)2:1$(C)42:PRESSURE"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 125
+y 435
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)42:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 215
+y 435
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)42:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 310
+y 435
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)42:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 405
+y 435
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)42:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 505
+y 435
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)42:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 436
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CPT:CP$(CP)2:1$(C)42:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 265
+y 436
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CPT:CP$(CP)2:1$(C)42:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 455
+y 436
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CPT:CP$(CP)2:1$(C)42:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 360
+y 436
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CPT:CP$(CP)2:1$(C)42:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 2
+y 498
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)60:TEMP"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 2
+y 545
+w 75
+h 16
+controlPv "CDT:CP$(CP)2:1$(C)61:DIFF_TEMP"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 2
+y 597
+w 75
+h 16
+controlPv "CDT:CP$(CP)2:1$(C)62:DIFF_TEMP"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 630
+w 74
+h 15
+lineColor index 14
+fill
+fillColor index 14
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 2
+y 645
+w 75
+h 16
+controlPv "CPT:CP$(CP)2:1$(C)61:PRESSURE"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 100
+w 75
+h 16
+controlPv "CDP:CP$(CP)2:1$(C)41:DIFF_PRESSURE"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 585
+y 85
+w 75
+h 14
+lineColor index 14
+fill
+fillColor index 14
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 660
+y 85
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CDP:CP$(CP)2:1$(C)41:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 660
+y 100
+w 15
+h 15
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 660
+y 100
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CDP:CP$(CP)2:1$(C)41:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 660
+y 100
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CDP:CP$(CP)2:1$(C)41:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 585
+y 690
+w 150
+h 30
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Compressor MCC Alarm"
+  "Status"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 745
+y 690
+w 20
+h 25
+lineColor index 32
+fill
+fillColor index 32
+lineWidth 0
+visPv "CMCC:CP$(CP)2:1$(C):ALM_L"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Choice Button)
+object activeChoiceButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 770
+y 695
+w 50
+h 16
+fgColor index 14
+bgColor index 30
+selectColor index 30
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CMCC:CP$(CP)2:1$(C):ALM_DIS"
+indicatorPv "CMCC:CP$(CP)2:1$(C):ALM_DIS"
+font "helvetica-medium-r-10.0"
+orientation "horizontal"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 725
+y 690
+w 20
+h 25
+lineColor index 20
+fill
+fillColor index 20
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 725
+y 690
+w 20
+h 25
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "CMCC:CP$(CP)2:1$(C):ALM"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 125
+y 90
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)01:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 215
+y 90
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)01:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 310
+y 90
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)01:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 405
+y 90
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)01:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 505
+y 90
+w 50
+h 18
+controlPv "CPT:CP$(CP)2:1$(C)01:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 175
+y 91
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CPT:CP$(CP)2:1$(C)01:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 265
+y 91
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CPT:CP$(CP)2:1$(C)01:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 455
+y 91
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CPT:CP$(CP)2:1$(C)01:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 360
+y 91
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CPT:CP$(CP)2:1$(C)01:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 2
+y 150
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)01:TEMP"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 135
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CTP:CP$(CP)2:1$(C)01:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 150
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)01:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 150
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 3
+fillAlarm
+alarmPv "CTP:CP$(CP)2:1$(C)01:ALM"
+visPv "CTP:CP$(CP)2:1$(C)01:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 185
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CPT:CP$(CP)2:1$(C)12:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 135
+y 215
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CPT:CP$(CP)2:1$(C)12:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 200
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 3
+fillAlarm
+alarmPv "CPT:CP$(CP)2:1$(C)12:ALM"
+visPv "CPT:CP$(CP)2:1$(C)12:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 2
+y 185
+w 75
+h 15
+lineColor index 14
+fill
+fillColor index 14
+lineWidth 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 2
+y 201
+w 75
+h 16
+controlPv "CPT:CP$(CP)2:1$(C)12:PRESSURE"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 287
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CTC:CP$(CP)2:1$(C)35:B:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 302
+w 15
+h 15
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 302
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTC:CP$(CP)2:1$(C)35:B:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 78
+y 302
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTC:CP$(CP)2:1$(C)35:B:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 2
+y 302
+w 75
+h 16
+controlPv "CTC:CP$(CP)2:1$(C)35:B:TEMP"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 645
+w 75
+h 16
+controlPv "VFDP:CP$(CP)2:1$(C):POWER"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 630
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "VFDP:CP$(CP)2:1$(C):LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 645
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "VFDP:CP$(CP)2:1$(C):ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 645
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "VFDP:CP$(CP)2:1$(C):ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 705
+y 640
+w 50
+h 18
+controlPv "VFDP:CP$(CP)2:1$(C):LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 795
+y 640
+w 50
+h 18
+controlPv "VFDP:CP$(CP)2:1$(C):LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 890
+y 640
+w 50
+h 18
+controlPv "VFDP:CP$(CP)2:1$(C):HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 985
+y 640
+w 50
+h 18
+controlPv "VFDP:CP$(CP)2:1$(C):HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 1085
+y 640
+w 50
+h 18
+controlPv "VFDP:CP$(CP)2:1$(C):LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 755
+y 641
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "VFDP:CP$(CP)2:1$(C):ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 845
+y 641
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "VFDP:CP$(CP)2:1$(C):ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1035
+y 641
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "VFDP:CP$(CP)2:1$(C):ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 940
+y 641
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "VFDP:CP$(CP)2:1$(C):ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 595
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)35:C:TEMP"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 580
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CTP:CP$(CP)2:1$(C)35:C:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 595
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)35:C:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 595
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)35:C:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 705
+y 590
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)35:C:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 795
+y 590
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)35:C:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 890
+y 590
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)35:C:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 985
+y 590
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)35:C:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 1085
+y 590
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)35:C:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 755
+y 591
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)35:C:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 845
+y 591
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)35:C:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1035
+y 591
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)35:C:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 940
+y 591
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)35:C:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 545
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)35:TEMP"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 530
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CTP:CP$(CP)2:1$(C)35:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 545
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)35:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 545
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)35:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 705
+y 540
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)35:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 795
+y 540
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)35:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 890
+y 540
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)35:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 985
+y 540
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)35:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 1085
+y 540
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)35:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 755
+y 541
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)35:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 845
+y 541
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)35:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1035
+y 541
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)35:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 940
+y 541
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)35:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 495
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)17:TEMP"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 480
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CTP:CP$(CP)2:1$(C)17:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 495
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)17:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 495
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)17:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 705
+y 490
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)17:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 795
+y 490
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)17:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 890
+y 490
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)17:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 985
+y 490
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)17:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 1085
+y 490
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)17:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 755
+y 491
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)17:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 845
+y 491
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)17:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1035
+y 491
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)17:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 940
+y 491
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)17:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 445
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)E:TEMP"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 430
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CTP:CP$(CP)2:1$(C)E:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 445
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)E:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 445
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)E:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 705
+y 440
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)E:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 795
+y 440
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)E:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 890
+y 440
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)E:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 985
+y 440
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)E:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 1085
+y 440
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)E:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 755
+y 441
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)E:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 845
+y 441
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)E:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1035
+y 441
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)E:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 940
+y 441
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)E:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 395
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)D:TEMP"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 380
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CTP:CP$(CP)2:1$(C)D:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 395
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)D:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 395
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)D:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 705
+y 390
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)D:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 795
+y 390
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)D:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 890
+y 390
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)D:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 985
+y 390
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)D:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 1085
+y 390
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)D:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 755
+y 391
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)D:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 845
+y 391
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)D:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1035
+y 391
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)D:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 940
+y 391
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)D:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 350
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)C:TEMP"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 335
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CTP:CP$(CP)2:1$(C)C:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 350
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)C:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 350
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)C:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 705
+y 345
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)C:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 795
+y 345
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)C:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 890
+y 345
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)C:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 985
+y 345
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)C:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 1085
+y 345
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)C:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 755
+y 346
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)C:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 845
+y 346
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)C:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1035
+y 346
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)C:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 940
+y 346
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)C:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 300
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)B:TEMP"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 285
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CTP:CP$(CP)2:1$(C)B:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 300
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)B:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 300
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)B:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 705
+y 295
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)B:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 795
+y 295
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)B:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 890
+y 295
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)B:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 985
+y 295
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)B:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 1085
+y 295
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)B:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 755
+y 296
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)B:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 845
+y 296
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)B:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1035
+y 296
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)B:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 940
+y 296
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)B:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 250
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)A:TEMP"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 235
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 32
+visPv "CTP:CP$(CP)2:1$(C)A:LATCH"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 250
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)A:ALM"
+visInvert
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 661
+y 250
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)A:ALM"
+visInvert
+visMin "1"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 705
+y 245
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)A:LOLO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 795
+y 245
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)A:LO"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 890
+y 245
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)A:HI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 985
+y 245
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)A:HIHI"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 1085
+y 245
+w 50
+h 18
+controlPv "CTP:CP$(CP)2:1$(C)A:LTIME"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 30
+editable
+motifWidget
+precision 2
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 755
+y 246
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)A:ALM"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 845
+y 246
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)A:ALM"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 1035
+y 246
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 20
+visPv "CTP:CP$(CP)2:1$(C)A:ALM"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 940
+y 246
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 35
+visPv "CTP:CP$(CP)2:1$(C)A:ALM"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 2
+y 690
+w 75
+h 16
+controlPv "CTP:CP$(CP)2:1$(C)16:TEMP"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 5
+y 85
+w 75
+h 16
+controlPv "CPT:CP$(CP)2:1$(C)01:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+useDisplayBg
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 0
+y 335
+w 75
+h 16
+controlPv "CPDT:CP$(CP)2:1$(C)46:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+useDisplayBg
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 0
+y 380
+w 75
+h 16
+controlPv "CDP:CP$(CP)2:1$(C)42:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+useDisplayBg
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 0
+y 430
+w 75
+h 16
+controlPv "CPT:CP$(CP)2:1$(C)42:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+useDisplayBg
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 0
+y 630
+w 75
+h 16
+controlPv "CPT:CP$(CP)2:1$(C)61:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+useDisplayBg
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 85
+w 75
+h 16
+controlPv "CDP:CP$(CP)2:1$(C)41:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+useDisplayBg
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 135
+w 75
+h 16
+controlPv "CDP:CP$(CP)2:1$(C)39:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 3
+bgColor index 28
+useDisplayBg
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 585
+y 185
+w 75
+h 16
+controlPv "CJTM:CP$(CP)2:1$(C):PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 28
+useDisplayBg
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Exit Button)
+object activeExitButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1085
+y 5
+w 48
+h 24
+fgColor index 14
+bgColor index 4
+topShadowColor index 1
+botShadowColor index 11
+label "Exit"
+font "helvetica-medium-r-12.0"
+3d
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 975
+y 5
+w 96
+h 24
+fgColor index 14
+bgColor index 4
+topShadowColor index 1
+botShadowColor index 11
+font "helvetica-medium-r-12.0"
+buttonLabel "Home Screen..."
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "lcls_main"
+}
+setPosition {
+  0 "parentWindow"
+}
+replaceSymbols {
+  0 1
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 845
+y 5
+w 121
+h 24
+fgColor index 14
+bgColor index 4
+topShadowColor index 1
+botShadowColor index 11
+font "helvetica-medium-r-12.0"
+buttonLabel "Cryo Main Screen..."
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "cryoMain.edl"
+}
+setPosition {
+  0 "parentWindow"
+}
+replaceSymbols {
+  0 1
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 5
+y 185
+w 75
+h 16
+controlPv "CPT:CP$(CP)2:1$(C)12:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+useDisplayBg
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 0
+y 285
+w 75
+h 16
+controlPv "CTC:CP$(CP)2:1$(C)35:B:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+useDisplayBg
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 0
+y 580
+w 75
+h 16
+controlPv "CDT:CP$(CP)2:1$(C)62:PIDNUM"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 2
+bgColor index 28
+useDisplayBg
+autoHeight
+nullColor index 32
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+

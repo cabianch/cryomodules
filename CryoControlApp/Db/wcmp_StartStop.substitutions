@@ -1,0 +1,6 @@
+file wcmp_StartStop.vdb
+{
+         pattern { PLC_NAME            , AREA     , LOCA , CMPNUM }
+                 { PLC_CP$(CP)2_CR1$(C), CP$(CP)2 , 1$(C),   4    }
+}
+

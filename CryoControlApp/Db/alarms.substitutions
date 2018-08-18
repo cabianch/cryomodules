@@ -1,0 +1,30 @@
+file alarm.vdb
+{
+		pattern	{ PLC_NAME           , PRIM, AREA   , LOCA     ,  TAGNAME,  PIDNUM    }
+			{ PLC_CP$(CP)2_CR1$(C), CTP,  CP$(CP)2, 1$(C)01,  TP21X01,  TP21$(C)01}
+			{ PLC_CP$(CP)2_CR1$(C), CTP,  CP$(CP)2, 1$(C)12,  TP21X12,  TP21$(C)12}
+			{ PLC_CP$(CP)2_CR1$(C), CTP,  CP$(CP)2, 1$(C)16,  TP21X16,  TP21$(C)16}
+			{ PLC_CP$(CP)2_CR1$(C), CTP,  CP$(CP)2, 1$(C)17,  TP21X17,  TP21$(C)17}
+			{ PLC_CP$(CP)2_CR1$(C), CTP,  CP$(CP)2, 1$(C)35,  TP21X35,  TP21$(C)35}
+			{ PLC_CP$(CP)2_CR1$(C), CTP,  CP$(CP)2, 1$(C)35:C,TP21X35C, TP21$(C)35C}
+			{ PLC_CP$(CP)2_CR1$(C), CTP,  CP$(CP)2, 1$(C)60,  TP21X60,  TP21$(C)60}
+			{ PLC_CP$(CP)2_CR1$(C), CTP,  CP$(CP)2, 1$(C)A,   TP21XA,   TP21$(C)A}
+			{ PLC_CP$(CP)2_CR1$(C), CTP,  CP$(CP)2, 1$(C)B,   TP21XB,   TP21$(C)B}
+			{ PLC_CP$(CP)2_CR1$(C), CTP,  CP$(CP)2, 1$(C)C,   TP21XC,   TP21$(C)C}
+			{ PLC_CP$(CP)2_CR1$(C), CTP,  CP$(CP)2, 1$(C)D,   TP21XD,   TP21$(C)D}
+			{ PLC_CP$(CP)2_CR1$(C), CTP,  CP$(CP)2, 1$(C)E,   TP21XE,   TP21$(C)E}
+			{ PLC_CP$(CP)2_CR1$(C), CTC,  CP$(CP)2, 1$(C)35:B,TC21X35B, TC21$(C)35B}
+			{ PLC_CP$(CP)2_CR1$(C), CDT,  CP$(CP)2, 1$(C)61,  DT21X61,  DT21$(C)61}
+			{ PLC_CP$(CP)2_CR1$(C), CDT,  CP$(CP)2, 1$(C)62,  DT21X62,  DT21$(C)62}
+			{ PLC_CP$(CP)2_CR1$(C), CPT,  CP$(CP)2, 1$(C)01,  PT21X01,  PT21$(C)01}
+			{ PLC_CP$(CP)2_CR1$(C), CPT,  CP$(CP)2, 1$(C)12,  PT21X12,  PT21$(C)12}
+			{ PLC_CP$(CP)2_CR1$(C), CPT,  CP$(CP)2, 1$(C)42,  PT21X42,  PT21$(C)42}
+			{ PLC_CP$(CP)2_CR1$(C), CPT,  CP$(CP)2, 1$(C)61,  PT21X61,  PT21$(C)61}
+			{ PLC_CP$(CP)2_CR1$(C), CPDT, CP$(CP)2, 1$(C)46,  PDT21X46, PDT21$(C)46}
+			{ PLC_CP$(CP)2_CR1$(C), CDP,  CP$(CP)2, 1$(C)39,  DP21X39,  DP21$(C)39}
+			{ PLC_CP$(CP)2_CR1$(C), CDP,  CP$(CP)2, 1$(C)41,  DP21X41,  DP21$(C)41}
+			{ PLC_CP$(CP)2_CR1$(C), CDP,  CP$(CP)2, 1$(C)42,  DP21X42,  DP21$(C)44}
+			{ PLC_CP$(CP)2_CR1$(C), CJTM, CP$(CP)2, 1$(C),    JTMOT21X, JTMOT21$(C)}
+			{ PLC_CP$(CP)2_CR1$(C), VFDP, CP$(CP)2, 1$(C),    OPVFDP21X,OPVFDP21$(C)}
+#			{ PLC_CP$(CP)2_CR1$(C), CLL,  CP$(CP)2, 1$(C)13,  LL21X13,  LL21$(C)13}
+}

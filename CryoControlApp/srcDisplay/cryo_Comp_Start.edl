@@ -1,0 +1,2443 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 1194
+y 204
+w 654
+h 610
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-8.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 4
+textColor index 14
+ctlFgColor1 index 30
+ctlFgColor2 index 32
+ctlBgColor1 index 34
+ctlBgColor2 index 35
+topShadowColor index 37
+botShadowColor index 44
+gridSize 5
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 30
+w 385
+h 280
+lineColor index 9
+fillColor index 9
+lineWidth 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 30
+y 130
+w 28
+h 28
+lineColor index 20
+fill
+fillColor index 20
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 30
+y 130
+w 28
+h 28
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "CES21$(C)"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 290
+y 315
+w 175
+h 280
+lineColor index 9
+fillColor index 9
+lineWidth 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 315
+w 276
+h 280
+lineColor index 9
+fillColor index 9
+lineWidth 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 304
+y 550
+w 83
+h 15
+lineColor index 0
+fill
+fillColor index 0
+lineWidth 0
+visPv "CCMP21$(C)_LLTMR"
+visMin "0"
+visMax "30"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 304
+y 526
+w 83
+h 15
+lineColor index 0
+fill
+fillColor index 0
+lineWidth 0
+visPv "CCMP21$(C)_MRTMR"
+visMin "0"
+visMax "10"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 304
+y 502
+w 83
+h 15
+lineColor index 0
+fill
+fillColor index 0
+lineWidth 0
+visPv "CCMP21$(C)_STUTMR"
+visMin "0"
+visMax "120"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 304
+y 477
+w 83
+h 15
+lineColor index 0
+fill
+fillColor index 0
+lineWidth 0
+visPv "CCMP21$(C)_OPTMR2"
+visMin "0"
+visMax "60"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 304
+y 451
+w 83
+h 15
+lineColor index 0
+fill
+fillColor index 0
+lineWidth 0
+visPv "CCMP21$(C)_OPTMR1"
+visMin "0"
+visMax "30"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 304
+y 426
+w 83
+h 15
+lineColor index 0
+fill
+fillColor index 0
+lineWidth 0
+visPv "CCMP21$(C)_SOUTMR"
+visMin "0"
+visMax "120"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 305
+y 402
+w 83
+h 15
+lineColor index 0
+fill
+fillColor index 0
+lineWidth 0
+visPv "CCMP21$(C)_ODTMR"
+visMin "0"
+visMax "120"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 305
+y 377
+w 83
+h 15
+lineColor index 0
+fill
+fillColor index 0
+lineWidth 0
+visPv "CCMP21$(C)_ARTM"
+visMin "0"
+visMax "20"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 475
+y 315
+w 170
+h 280
+lineColor index 9
+fillColor index 9
+lineWidth 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 395
+y 30
+w 250
+h 280
+lineColor index 9
+fillColor index 9
+lineWidth 3
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 0
+w 655
+h 25
+lineColor index 19
+fill
+fillColor index 19
+lineWidth 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 140
+y 0
+w 395
+h 20
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 55
+bgColor index 0
+useDisplayBg
+value {
+  "CHL2 Main Compressor CMP21$(C) Controls"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 0
+y 5
+w 150
+h 15
+controlPv "iocch11:date"
+format "decimal"
+font "helvetica-medium-r-14.0"
+fgColor index 55
+bgColor index 19
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 540
+y 5
+w 80
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 55
+bgColor index 0
+useDisplayBg
+value {
+  "CHL MENU"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 4
+release 0
+x 625
+y 0
+w 20
+h 20
+fgColor index 14
+bgColor index 51
+topShadowColor index 2
+botShadowColor index 12
+font "helvetica-medium-r-8.0"
+numPvs 4
+numDsps 1
+displayFileName {
+  0 "/cs/opshome/edm/cryo/CRYO_O_totalmenu.edl"
+}
+menuLabel {
+  0 "CHL Menu List"
+}
+icon
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 319
+y 165
+w 70
+h 54
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Oil Pump"
+  "DP"
+  "<20 psid"
+  "C5: <30 psid"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 215
+y 174
+w 70
+h 40
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Oil Pump"
+  "VFD"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 100
+y 174
+w 90
+h 45
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Medium Voltage"
+  "Starter Fault"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 10
+y 174
+w 70
+h 45
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Low Suction "
+  "Press Switch"
+  "<10 psia"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 310
+y 85
+w 80
+h 40
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "High Oil"
+  "Temp Switch"
+  ">135F"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 200
+y 75
+w 95
+h 55
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "High Discharge "
+  "Press Switch"
+  ">161 psig"
+  "C5: >310 psig"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 90
+y 85
+w 95
+h 40
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "High Discharge "
+  "Temp Switch"
+  ">230 F"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 5
+y 85
+w 90
+h 40
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "E-STOP "
+  "Button "
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 75
+y 45
+w 215
+h 40
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Operational Shutdowns"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 20
+y 285
+w 355
+h 15
+controlPv "WCMP:CP$(CP)2:1$(C):SD_STRING"
+format "decimal"
+font "helvetica-bold-r-14.0"
+fgColor index 14
+bgColor index 4
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 10
+y 255
+w 240
+h 30
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Reason for Last Compressor Shutdown:"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 425
+y 45
+w 215
+h 40
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Compressor Controls"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 525
+y 195
+w 62
+h 23
+lineColor index 30
+fill
+fillColor index 30
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 480
+y 80
+w 80
+h 25
+lineColor index 1
+fill
+fillColor index 1
+lineWidth 0
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 480
+y 80
+w 85
+h 20
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "CMP21$(C)"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 455
+y 145
+w 63
+h 43
+lineColor index 30
+fill
+fillColor index 30
+lineWidth 0
+visPv "WCMP:CP$(CP)2:1$(C):ORDER_ONL"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 525
+y 145
+w 63
+h 43
+lineColor index 30
+fill
+fillColor index 30
+lineWidth 0
+visPv "CCMP21$(C)_Order_OffL.D"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 530
+y 200
+w 62
+h 16
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "LOCAL"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 525
+y 195
+w 62
+h 23
+lineColor index 16
+fill
+fillColor index 16
+lineWidth 0
+visPv "plcch11c21$(C)_LR"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 525
+y 200
+w 74
+h 16
+font "helvetica-medium-r-14.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visPv "plcch11c21$(C)_LR"
+visMin "0"
+visMax "1"
+value {
+  "REMOTE"
+}
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 460
+y 120
+w 55
+h 25
+fgColor index 14
+onColor index 15
+offColor index 15
+topShadowColor index 0
+botShadowColor index 14
+controlPv "WCMP:CP$(CP)2:1$(C):ORDER_ON"
+pressValue "1"
+onLabel "START"
+offLabel "START"
+3d
+useEnumNumeric
+font "helvetica-medium-r-14.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 460
+y 165
+w 55
+h 18
+fgColor index 0
+onColor index 20
+offColor index 20
+topShadowColor index 0
+botShadowColor index 14
+controlPv "WCMP:CP$(CP)2:1$(C):ON_CNCL"
+pressValue "1"
+onLabel "CANCEL"
+offLabel "CANCEL"
+3d
+useEnumNumeric
+font "helvetica-medium-r-10.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 460
+y 150
+w 55
+h 18
+fgColor index 14
+onColor index 15
+offColor index 15
+topShadowColor index 0
+botShadowColor index 14
+controlPv "WCMP:CP$(CP)2:1$(C):ON_CFRM"
+pressValue "1"
+onLabel "CONFIRM"
+offLabel "CONFIRM"
+3d
+useEnumNumeric
+font "helvetica-medium-r-10.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 530
+y 165
+w 55
+h 18
+fgColor index 0
+onColor index 20
+offColor index 20
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCMP21$(C)_Order_OffCN"
+pressValue "1"
+onLabel "CANCEL"
+offLabel "CANCEL"
+3d
+useEnumNumeric
+font "helvetica-medium-r-10.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 530
+y 150
+w 55
+h 18
+fgColor index 14
+onColor index 15
+offColor index 15
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCMP21$(C)_Order_OffCF"
+pressValue "1"
+onLabel "CONFIRM"
+offLabel "CONFIRM"
+3d
+useEnumNumeric
+font "helvetica-medium-r-10.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 525
+y 120
+w 55
+h 25
+fgColor index 14
+onColor index 20
+offColor index 20
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCMP21$(C)_Order_OffI"
+pressValue "1"
+onLabel "STOP"
+offLabel "STOP"
+3d
+useEnumNumeric
+font "helvetica-medium-r-14.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 460
+y 195
+w 55
+h 25
+fgColor index 14
+onColor index 64
+offColor index 63
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCMP21$(C)_Reset"
+pressValue "1"
+onLabel "RESET"
+offLabel "RESET"
+3d
+useEnumNumeric
+font "helvetica-medium-r-14.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 485
+y 320
+w 140
+h 40
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Compressor Oil"
+  "Heater Controls"
+}
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 493
+y 365
+w 55
+h 25
+fgColor index 14
+onColor index 15
+offColor index 15
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCMP21$(C)_HTR_Order_ONI"
+pressValue "1"
+onLabel "ON"
+offLabel "ON"
+3d
+useEnumNumeric
+font "helvetica-medium-r-14.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 558
+y 365
+w 55
+h 25
+fgColor index 14
+onColor index 20
+offColor index 20
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCMP21$(C)_HTR_Order_OFFI"
+pressValue "1"
+onLabel "OFF"
+offLabel "OFF"
+3d
+useEnumNumeric
+font "helvetica-medium-r-14.0"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 562
+y 467
+w 90
+h 78
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 591
+y 517
+w 28
+h 28
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 591
+y 517
+w 28
+h 28
+lineColor index 20
+fill
+fillColor index 20
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 591
+y 517
+w 28
+h 28
+lineColor index 61
+fill
+fillColor index 61
+lineWidth 0
+visPv "COHC21$(C)35"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 561
+y 467
+w 90
+h 45
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Oil Heater "
+  "Status"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 306
+y 376
+w 79
+h 19
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Anti Recycle:"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 335
+y 330
+w 65
+h 30
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Timers"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 306
+y 401
+w 79
+h 19
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Oil Drain:"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 390
+y 403
+w 25
+h 15
+controlPv "CCMP21$(C)_ODTMR"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 4
+precision 0
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 306
+y 477
+w 109
+h 19
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 306
+y 477
+w 79
+h 19
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Oil Buildup:"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 390
+y 479
+w 25
+h 15
+controlPv "CCMP21$(C)_OPTMR2"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 4
+precision 0
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 306
+y 502
+w 109
+h 19
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 306
+y 502
+w 79
+h 19
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Start Unload:"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 390
+y 504
+w 25
+h 15
+controlPv "CCMP21$(C)_STUTMR"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 4
+precision 0
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 306
+y 526
+w 109
+h 19
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 306
+y 526
+w 79
+h 19
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Run Verify:"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 390
+y 528
+w 25
+h 15
+controlPv "CCMP21$(C)_MRTMR"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 4
+precision 0
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 306
+y 549
+w 109
+h 19
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 306
+y 549
+w 79
+h 19
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Load Limit:"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 390
+y 551
+w 25
+h 15
+controlPv "CCMP21$(C)_LLTMR"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 4
+precision 0
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 432
+y 378
+w 14
+h 15
+controlPv "CCMP21$(C)_ARTS"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 4
+precision 0
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 394
+y 378
+w 15
+h 15
+controlPv "CCMP21$(C)_ARTM"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 4
+precision 0
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 408
+y 377
+w 15
+h 16
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "M"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 446
+y 377
+w 15
+h 16
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "S"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 405
+w 265
+h 15
+lineColor index 0
+fill
+fillColor index 0
+lineWidth 0
+visPv "CCMP21$(C)_Status_Int"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 380
+w 265
+h 15
+lineColor index 0
+fill
+fillColor index 0
+lineWidth 0
+visPv "CCMP21$(C)_Status_Int"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 405
+w 160
+h 15
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visMin "0"
+visMax "1"
+value {
+  "Waiting for Start Request"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 380
+w 134
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visInvert
+visMin "0"
+visMax "1"
+value {
+  "Waiting for Reset"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 455
+w 265
+h 15
+lineColor index 0
+fill
+fillColor index 0
+lineWidth 0
+visPv "CCMP21$(C)_Status_Int"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 430
+w 265
+h 15
+lineColor index 0
+fill
+fillColor index 0
+lineWidth 0
+visPv "CCMP21$(C)_Status_Int"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 455
+w 160
+h 15
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visMin "0"
+visMax "1"
+value {
+  "Unloading Compressor"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 430
+w 225
+h 15
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visInvert
+visMin "0"
+visMax "1"
+value {
+  "Starting Oil Pump and Building 15 PSID"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 505
+w 265
+h 15
+lineColor index 0
+fill
+fillColor index 0
+lineWidth 0
+visPv "CCMP21$(C)_Status_Int"
+visMin "5"
+visMax "6"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 480
+w 265
+h 15
+lineColor index 0
+fill
+fillColor index 0
+lineWidth 0
+visPv "CCMP21$(C)_Status_Int"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 505
+w 260
+h 15
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visMin "0"
+visMax "1"
+value {
+  "Starting Main Drive Motor, Verifying Running"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 480
+w 257
+h 14
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visInvert
+visMin "0"
+visMax "1"
+value {
+  "Waiting: Oil DP > 30 And Lube Timer Done"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 555
+w 265
+h 15
+lineColor index 0
+fill
+fillColor index 0
+lineWidth 0
+visPv "CCMP21$(C)_Status_Int"
+visMin "7"
+visMax "8"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 530
+w 265
+h 15
+lineColor index 0
+fill
+fillColor index 0
+lineWidth 0
+visPv "CCMP21$(C)_Status_Int"
+visMin "6"
+visMax "7"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 555
+w 160
+h 15
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visMin "0"
+visMax "1"
+value {
+  "Unloading Compressor"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 530
+w 225
+h 15
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+visInvert
+visMin "0"
+visMax "1"
+value {
+  "Compressor Started"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 25
+y 330
+w 215
+h 40
+font "helvetica-medium-r-18.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Startup Process"
+  "Status"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 306
+y 426
+w 79
+h 19
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Stop Unload:"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 390
+y 428
+w 25
+h 15
+controlPv "CCMP21$(C)_SOUTMR"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 4
+precision 0
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 306
+y 451
+w 79
+h 19
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Lube Timer:"
+}
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 390
+y 453
+w 25
+h 15
+controlPv "CCMP21$(C)_OPTMR1"
+format "decimal"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 4
+precision 0
+nullColor index 32
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+noExecuteClipMask
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 516
+y 539
+w 92
+h 54
+font "helvetica-medium-r-12.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Oil Pump must"
+  "be running for"
+  "heater to be on."
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 486
+y 394
+w 63
+h 43
+lineColor index 30
+fill
+fillColor index 30
+lineWidth 0
+visPv "CCMP21$(C)_HTR_Order_ONL.D"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 556
+y 394
+w 63
+h 43
+lineColor index 30
+fill
+fillColor index 30
+lineWidth 0
+visPv "CCMP21$(C)_HTR_Order_OFFL.D"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 491
+y 414
+w 55
+h 18
+fgColor index 0
+onColor index 20
+offColor index 20
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCMP21$(C)_HTR_Order_ONCN"
+pressValue "1"
+onLabel "CANCEL"
+offLabel "CANCEL"
+3d
+useEnumNumeric
+font "helvetica-medium-r-10.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 491
+y 399
+w 55
+h 18
+fgColor index 14
+onColor index 15
+offColor index 15
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCMP21$(C)_HTR_Order_ONCF"
+pressValue "1"
+onLabel "CONFIRM"
+offLabel "CONFIRM"
+3d
+useEnumNumeric
+font "helvetica-medium-r-10.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 561
+y 414
+w 55
+h 18
+fgColor index 0
+onColor index 20
+offColor index 20
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCMP21$(C)_HTR_Order_OFFCN"
+pressValue "1"
+onLabel "CANCEL"
+offLabel "CANCEL"
+3d
+useEnumNumeric
+font "helvetica-medium-r-10.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 561
+y 399
+w 55
+h 18
+fgColor index 14
+onColor index 15
+offColor index 15
+topShadowColor index 0
+botShadowColor index 14
+controlPv "CCMP21$(C)_HTR_Order_OFFCF"
+pressValue "1"
+onLabel "CONFIRM"
+offLabel "CONFIRM"
+3d
+useEnumNumeric
+font "helvetica-medium-r-10.0"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 478
+y 464
+w 90
+h 45
+font "helvetica-medium-r-12.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Oil Heater "
+  "User Request"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 508
+y 514
+w 28
+h 28
+lineColor index 20
+fill
+fillColor index 20
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 508
+y 514
+w 28
+h 28
+lineColor index 61
+fill
+fillColor index 61
+lineWidth 0
+visPv "COHRQ21$(C)35"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 340
+y 130
+w 28
+h 28
+lineColor index 20
+fill
+fillColor index 20
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 340
+y 130
+w 28
+h 28
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "CTSH21$(C)35"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 130
+y 130
+w 28
+h 28
+lineColor index 20
+fill
+fillColor index 20
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 130
+y 130
+w 28
+h 28
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "CTSH21$(C)12"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 235
+y 130
+w 28
+h 28
+lineColor index 20
+fill
+fillColor index 20
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 235
+y 130
+w 28
+h 28
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "CPSH21$(C)12"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 30
+y 219
+w 28
+h 28
+lineColor index 20
+fill
+fillColor index 20
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 30
+y 219
+w 28
+h 28
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "CPSL21$(C)01"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 130
+y 219
+w 28
+h 28
+lineColor index 20
+fill
+fillColor index 20
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 130
+y 219
+w 28
+h 28
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "COL21$(C)"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 235
+y 219
+w 28
+h 28
+lineColor index 20
+fill
+fillColor index 20
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 235
+y 219
+w 28
+h 28
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "COPVFD21$(C)FLT"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 340
+y 219
+w 28
+h 28
+lineColor index 20
+fill
+fillColor index 20
+lineWidth 0
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 340
+y 219
+w 28
+h 28
+lineColor index 15
+fill
+fillColor index 15
+lineWidth 0
+visPv "CPDSL21$(C)46"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
