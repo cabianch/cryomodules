@@ -1,4 +1,4 @@
-#!../../bin/linux-x86_64/cryoControl
+#!../../bin/rhel6-x86_64/cryomodules
 #==============================================================
 #
 #  Abs:  Startup for CryoControl App
@@ -7,11 +7,11 @@
 #
 #
 #  Side: This script is executed from:
-#         $EPICS_IOCS/sioc-cp12-cr14/startup.cmd
+#         $EPICS_IOCS/sioc-db01-cr01/startup.cmd
 #
-#  Facility: Cryo Controls
+#  Facility: Cryomodules controls
 #
-#  Auth: 05-JUN-2015, Diane Fairley (DFAIRLEY)
+#  Auth: 22-AUG-2018, Carolina Bianchini (CAROLINA)
 #  Rev:  dd-mmm-yyyy, Reviewer's Name (USERNAME)
 #--------------------------------------------------------------
 #  Mod:
@@ -23,57 +23,60 @@
 
 < envPaths
 
+#==============================================================
 # Set environment variables
-epicsEnvSet("AREA"      ,"CP12")
+#==============================================================
 #
 # name the PLC
 #
-epicsEnvSet("PLC_NODE"    ,"plc-b34-cr01")
-epicsEnvSet("PLC_NAME"    ,"PLC_CP12_CR14")
-epicsEnvSet("P_NAME" 	  ,"PLC:CP12:CR14")
+epicsEnvSet("PLC_NODE"    ,"plc-db01-cr01")
+epicsEnvSet("PLC_SLOT"    ,"8")
+epicsEnvSet("PLC_NAME"    ,"PLC_DB01_CR01")
+epicsEnvSet("P_NAME" 	  ,"PLC:DB01:CR01")
 #
 #name the sioc
 #
-epicsEnvSet("IOC_NODE"    ,"sioc-b34-cr01")
-epicsEnvSet("IOC_NAME"    ,"SIOC:CP12:CR14")
-#
-# might use this later
-#epicsEnvSet("VAC_AFC_FILE ,"vac.acf")
-#
+epicsEnvSet("IOC_NAME"    ,"SIOC:DB01:CR01")
+epicsEnvSet("IOC_NODE"    ,"sioc-db01-cr01")
+##
 # iocAdmin environment variables
-epicsEnvSet("ENGINEER"   , "Diane Fairley")
+epicsEnvSet("ENGINEER"   , "Carolina Bianchini")
 epicsEnvSet("IOC_RESTORE", "${IOC_DATA}/${IOC}/restore")
 epicsEnvSet("IOC_BOOT"   , "${TOP}/iocBoot/${IOC}")
 epicsEnvSet("STARTUP"    , "${EPICS_IOCS}/${IOC}")
 epicsEnvSet("ST_CMD"     , "startup.cmd")
 #
 # tag log messages with IOC name
-# How to escape the "sioc-b34-cr01" as the PERL program
-# will try to replace it.
-# So, uncomment the following and remove the backslash
 epicsEnvSet("EPICS_IOC_LOG_CLIENT_INET","${IOC}")
 #
 #
+#==============================================================
+## back to TOP
+#==============================================================
 cd ${TOP}
 #
-## Register all support components
-dbLoadDatabase "dbd/cryoControl.dbd"
-cryoControl_registerRecordDeviceDriver pdbbase
 #
+# Register all support components
+dbLoadDatabase "dbd/cryomodules.dbd"
+cryoplant_registerRecordDeviceDriver pdbbase
+#
+#==============================================================
 # Define EtherIP PLC connections
+#==============================================================
 # Initialize EtherIP driver and define PLC
 EIP_buffer_limit(400)
 drvEtherIP_init()
-
 #
 # drvEtherIP_define_PLC <name>, <ip_addr>, <slot>
-drvEtherIP_define_PLC("${PLC_NAME}","${PLC_NODE}", 4)
+drvEtherIP_define_PLC("${PLC_NAME}","${PLC_NODE}", "${PLC_SLOT}")
 #
 # EtherIP Debug messages
 EIP_verbosity(2)
 drvEtherIP_default_rate(1)
 #
-# IOC Health Monitoring
+#==============================================================
+# Load IOC Health Monitoring records
+#==============================================================
 dbLoadRecords("db/iocAdminSoft.db"   ,"IOC=${IOC_NAME}")
 dbLoadRecords("db/iocAdminScanMon.db","IOC=${IOC_NAME}")
 #
@@ -83,19 +86,28 @@ dbLoadRecords("db/iocAdminScanMon.db","IOC=${IOC_NAME}")
 # The python parser is part of iocAdmin
 dbLoadRecords("db/iocRelease.db"     ,"IOC=${IOC_NAME}")
 #
-# Load Channel Access Security configuration file
-#asSetFilename("bin/${ARCH}/${VAC_ACF_FILE}")
+#==============================================================
+## Load SIOC specific record instances
+#==============================================================
 #
-## Load record instances
-dbLoadRecords("db/cryoControl_plcAdmin.db","CP=1, C=4, P_NAME=${P_NAME}, PLC_NAME=${PLC_NAME}")
-dbLoadRecords("db/pid.db", "CP=1, C=4")
-dbLoadRecords("db/wcmp_AIns.db", "PLC_NAME=${PLC_NAME},CP=1,C=4,CMPNUM=4")
-dbLoadRecords("db/wcmp_misc.db", "PLC_NAME=${PLC_NAME},CP=1,C=4,CMPNUM=4")
-dbLoadRecords("db/wcmp_StartStop.db", "PLC_NAME=${PLC_NAME},CP=1,C=4,LOCA=14,CMPNUM=4")
-dbLoadRecords("db/plc_status.db", "PLC_NAME=${PLC_NAME},CP=1,C=4,LOCA=14,CMPNUM=4")
-dbLoadRecords("db/alarms.db", "CP=1,C=4") 
+#dbLoadRecords("db/cryoplant_plcAdmin.db","CP=1, C=4, P_NAME=${P_NAME}, PLC_NAME=${PLC_NAME}")
+#
+#dbLoadRecords("db/wcmp_AIs.db", "PLC_NAME=${PLC_NAME},CP=1,C=4")
+#dbLoadRecords("db/wcmp_components.db", "PLC_NAME=${PLC_NAME},CP=1,C=4")
+#dbLoadRecords("db/wcmp_plc_status.db", "PLC_NAME=${PLC_NAME},CP=1,C=4")
+#dbLoadRecords("db/wcmp_alarms.db", "PLC_NAME=${PLC_NAME},CP=1,C=4") 
+dbLoadRecords("db/heaters.db", "PLC_NAME=${PLC_NAME}")
 
+#==============================================================
+# Load Channel Access Security configuration file
+#==============================================================
+#this file contains the CRYO group
+asSetFilename("${ACF_FILE}")
 #
+#
+#==============================================================
+# Initialize Autosave Save/Restore
+#==============================================================
 # Initialize Autosave Save/Restore
 save_restoreSet_Debug(0)
 #
@@ -117,7 +129,7 @@ save_restoreSet_IncompleteSetsOk(1)
 # file name can look like "auto_settings.sav.bu", and be overwritten every
 # reboot, or it can look like "auto_settings.sav_020306-083522" (this is what
 # is meant by a dated backup file) and every reboot will write a new copy.
-#save_restoreSet_DatedBackupFiles(1)
+save_restoreSet_DatedBackupFiles(0)
 #
 # Specify what save files should be restored and when.
 # Note: up to eight files can be specified for each pass.
@@ -134,7 +146,9 @@ save_restoreSet_SeqPeriodInSeconds(600)
 # Time between failed .sav-file write and the retry.
 save_restoreSet_RetrySeconds(60)
 #
-#
+#==============================================================
+#  Initialize the IOC
+#==============================================================
 ## Run this to trace the stages of iocInit
 #traceIocInit
 #
@@ -158,17 +172,29 @@ makeAutosaveFiles()
 create_monitor_set("info_positions.req", 60 )
 create_monitor_set("info_settings.req" , 60 )
 #
+#==============================================================
 # change directory to TOP of application
+#==============================================================
 cd("${TOP}")
 pwd()
-EIP_buffer_limit(495)
 #
+#==============================================================
+# Turn on logging:
+#==============================================================
+iocLogInit
 #
+#==============================================================
+# set message logging facility=CRYO and process=IOC_NODE for this sioc
+#==============================================================
+iocLogPrefix("fac=CRYO proc={IOC_NODE} ")
+#
+#==============================================================
 # Turn on caPutLogging:
+#==============================================================
 # Log values only on change to the iocLogServer:
-#caPutLogInit("${EPICS_CA_PUT_LOG_ADDR}")
-#caPutLogShow(2)
+caPutLogInit("${EPICS_CA_PUT_LOG_ADDR}")
+caPutLogShow(2)
 #
 ## Start any sequence programs
-#seq sncExample, "user=dfairleyHost"
+#seq sncExample, "user=carolinaHost"
 
