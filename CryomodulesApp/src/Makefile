@@ -13,7 +13,7 @@ include $(TOP)/configure/CONFIG
 PROD_IOC_Linux = cryomodules
 
 # cryomodules.dbd will be created and installed
-DBD += crymodules.dbd
+DBD += cryomodules.dbd
 
 # cryomodules.dbd will be made up from these files:
 cryomodules_DBD += base.dbd
