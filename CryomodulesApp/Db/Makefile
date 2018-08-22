@@ -45,14 +45,14 @@ include $(TOP)/configure/RULES_DIRS
  #----------------------------------------------------
  # Create and install (or just install)
  # databases, templates, substitutions like this
- DB += plc_status.db
+# DB += plc_status.db
 # DB += pid.db
 # DB += alarms.db
  #
  # substitution files
  #
- DB += wcmp_AIns.db
- DB += cryoControl_plcAdmin.db
+# DB += wcmp_AIns.db
+# DB += cryoControl_plcAdmin.db
  DB += RTD.db
  DB += valve.db
  DB += pressure.db
