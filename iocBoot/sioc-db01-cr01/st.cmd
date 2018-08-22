@@ -29,9 +29,9 @@
 #
 # name the PLC
 #
-epicsEnvSet("PLC_NODE"    ,"plc-db01-cr01")
-epicsEnvSet("PLC_SLOT"    ,"8")
-epicsEnvSet("PLC_NAME"    ,"PLC_DB01_CR01")
+epicsEnvSet("PLC_NODE"    ,"129.57.244.23")
+epicsEnvSet("PLC_SLOT"    ,"0")
+epicsEnvSet("PLC_NAME"    ,"PLC_B15")
 epicsEnvSet("P_NAME" 	  ,"PLC:DB01:CR01")
 #
 #name the sioc
