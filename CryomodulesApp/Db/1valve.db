@@ -1,19 +1,8 @@
-record(bo, "CPV:$(AREA):3001:JT:MODE"){
-field(DESC, "$(DESC)")
-field(SCAN, "2 second")
-field(DTYP, "EtherIp")
-field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_MODE[$CM]")
-field(ZNAM, "Kill")
-field(ONAM, "Manual")
-field(PINI, "NO")
-field(ASG, "CRYO")
-}
-
 record(ai, "CPV:$(AREA):3001:JT:POS"){
 field(DESC, "$(DESC)")
 field(SCAN, "1 second"
 field(DTYP, "EtherIp")
-field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_POS.$CM")
+field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_POS[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
@@ -22,40 +11,30 @@ record(ai, "CPV:$(AREA):3001:JT:POS_RBV"){
 field(DESC, "$(DESC)")
 field(SCAN, "1 second"
 field(DTYP, "EtherIp")
-field(INP, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_POS_RBV.$CM")
+field(INP, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_POS_RBV[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CPV:$(AREA):3001:JT:CP_POS"){
 field(DESC, "$(DESC)")
 field(SCAN, "1 second"
 field(DTYP, "EtherIp")
-field(INP, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_CP_POS.$CM")
+field(INP, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_CP_POS[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CPV:$(AREA):3001:JT:OFFSET"){
 field(DESC, "$(DESC)")
 field(SCAN, "1 second"
 field(DTYP, "EtherIp")
-field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_OFFSET.$CM")
+field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_OFFSET[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
-}
-
-record(bi, "CPV:$(AREA):3001:JT:ALM"){
-field(DESC, "$(DESC)")
-field(SCAN, "2 second")
-field(DTYP, "EtherIp")
-field(INP, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_ALM[$CM]")
-field(ZNAM, "")
-field(ONAM, "")
-field(PINI, "YES")
 }
 
 record(ai, "CPV:$(AREA):3001:JT:POS_MAX"){
 field(DESC, "$(DESC)")
 field(SCAN, "1 second"
 field(DTYP, "EtherIp")
-field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_POS_MAX.$CM")
+field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_POS_MAX[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
@@ -64,7 +43,7 @@ record(ai, "CPV:$(AREA):3001:JT:POS_MIN"){
 field(DESC, "$(DESC)")
 field(SCAN, "1 second"
 field(DTYP, "EtherIp")
-field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_POS_MIN.$CM")
+field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_POS_MIN[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
@@ -73,7 +52,7 @@ record(bo, "CPV:$(AREA):3001:JT:POS_SOURCE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
 field(DTYP, "EtherIp")
-field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_POS_SOURCE[$CM]")
+field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_POS_SOURCE[$(CM)]")
 field(ZNAM, "PID")
 field(ONAM, "Plant")
 field(PINI, "NO")
@@ -84,7 +63,7 @@ record(bo, "CPV:$(AREA):3001:JT:POS_MAX_SOURCE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
 field(DTYP, "EtherIp")
-field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_POS_MAX_SOURCE[$CM]")
+field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_POS_MAX_SOURCE[$(CM)]")
 field(ZNAM, "PID")
 field(ONAM, "Plant")
 field(PINI, "NO")
@@ -95,7 +74,7 @@ record(bo, "CPV:$(AREA):3001:JT:POS_MIN_SOURCE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
 field(DTYP, "EtherIp")
-field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_POS_MIN_SOURCE[$CM]")
+field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_POS_MIN_SOURCE[$(CM)]")
 field(ZNAM, "PID")
 field(ONAM, "Plant")
 field(PINI, "NO")
@@ -106,18 +85,7 @@ record(ai, "CPV:$(AREA):3001:JT:POS_SETPT"){
 field(DESC, "$(DESC)")
 field(SCAN, "1 second"
 field(DTYP, "EtherIp")
-field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_POS_SETPT.$CM")
-field(PINI, "NO")
-field(ASG, "CRYO")
-}
-
-record(bo, "CPV:$(AREA):3002:CD:MODE"){
-field(DESC, "$(DESC)")
-field(SCAN, "2 second")
-field(DTYP, "EtherIp")
-field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_MODE[$CM]")
-field(ZNAM, "Kill")
-field(ONAM, "Manual")
+field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3001_JT_POS_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
@@ -126,7 +94,7 @@ record(ai, "CPV:$(AREA):3002:CD:POS"){
 field(DESC, "$(DESC)")
 field(SCAN, "1 second"
 field(DTYP, "EtherIp")
-field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_POS.$CM")
+field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_POS[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
@@ -135,40 +103,30 @@ record(ai, "CPV:$(AREA):3002:CD:POS_RBV"){
 field(DESC, "$(DESC)")
 field(SCAN, "1 second"
 field(DTYP, "EtherIp")
-field(INP, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_POS_RBV.$CM")
+field(INP, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_POS_RBV[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CPV:$(AREA):3002:CD:CP_POS"){
 field(DESC, "$(DESC)")
 field(SCAN, "1 second"
 field(DTYP, "EtherIp")
-field(INP, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_CP_POS.$CM")
+field(INP, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_CP_POS[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CPV:$(AREA):3002:CD:OFFSET"){
 field(DESC, "$(DESC)")
 field(SCAN, "1 second"
 field(DTYP, "EtherIp")
-field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_OFFSET.$CM")
+field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_OFFSET[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
-}
-
-record(bi, "CPV:$(AREA):3002:CD:ALM"){
-field(DESC, "$(DESC)")
-field(SCAN, "2 second")
-field(DTYP, "EtherIp")
-field(INP, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_ALM[$CM]")
-field(ZNAM, "")
-field(ONAM, "")
-field(PINI, "YES")
 }
 
 record(ai, "CPV:$(AREA):3002:CD:POS_MAX"){
 field(DESC, "$(DESC)")
 field(SCAN, "1 second"
 field(DTYP, "EtherIp")
-field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_POS_MAX.$CM")
+field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_POS_MAX[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
@@ -177,7 +135,7 @@ record(ai, "CPV:$(AREA):3002:CD:POS_MIN"){
 field(DESC, "$(DESC)")
 field(SCAN, "1 second"
 field(DTYP, "EtherIp")
-field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_POS_MIN.$CM")
+field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_POS_MIN[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
@@ -186,7 +144,7 @@ record(bo, "CPV:$(AREA):3002:CD:POS_SOURCE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
 field(DTYP, "EtherIp")
-field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_POS_SOURCE[$CM]")
+field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_POS_SOURCE[$(CM)]")
 field(ZNAM, "PID")
 field(ONAM, "Plant")
 field(PINI, "NO")
@@ -197,7 +155,7 @@ record(bo, "CPV:$(AREA):3002:CD:POS_MAX_SOURCE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
 field(DTYP, "EtherIp")
-field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_POS_MAX_SOURCE[$CM]")
+field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_POS_MAX_SOURCE[$(CM)]")
 field(ZNAM, "PID")
 field(ONAM, "Plant")
 field(PINI, "NO")
@@ -208,7 +166,7 @@ record(bo, "CPV:$(AREA):3002:CD:POS_MIN_SOURCE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
 field(DTYP, "EtherIp")
-field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_POS_MIN_SOURCE[$CM]")
+field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_POS_MIN_SOURCE[$(CM)]")
 field(ZNAM, "PID")
 field(ONAM, "Plant")
 field(PINI, "NO")
@@ -219,7 +177,7 @@ record(ai, "CPV:$(AREA):3002:CD:POS_SETPT"){
 field(DESC, "$(DESC)")
 field(SCAN, "1 second"
 field(DTYP, "EtherIp")
-field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_POS_SETPT.$CM")
+field(OUT, "@$(PLC_NAME) P_VL_1_CPV_3002_CD_POS_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
