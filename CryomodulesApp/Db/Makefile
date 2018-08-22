@@ -53,11 +53,12 @@ include $(TOP)/configure/RULES_DIRS
  #
 # DB += wcmp_AIns.db
 # DB += cryoControl_plcAdmin.db
- DB += RTD.db
- DB += valve.db
- DB += pressure.db
- DB += level.db
- DB += heater.db
+
+# DB += RTDs.db
+# DB += valves.db
+# DB += pressures.db
+# DB += levels.db
+ DB += heaters.db
 
 
  # =======================================================================
