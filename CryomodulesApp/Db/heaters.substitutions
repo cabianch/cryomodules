@@ -23,6 +23,6 @@
 file 1heater.db
 {
    pattern {  AREA   , CM }
-	   {  02     , 1  }
-           {  03     , 2  }
+	   {  CM02     , 1  }
+           {  CM03     , 2  }
 }
