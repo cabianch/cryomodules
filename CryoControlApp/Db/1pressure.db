@@ -1,0 +1,479 @@
+record(bi, "CPT:$(AREA):2302:DS:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CPT:$(AREA):2302:DS:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CPT:$(AREA):2302:DS:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CPT:$(AREA):2302:DS:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CPT:$(AREA):2302:DS:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CPT:$(AREA):2302:DS:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CPT:$(AREA):2302:DS:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CPT:$(AREA):2302:DS:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CPT:$(AREA):2302:DS:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CPT:$(AREA):2302:DS:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CPT:$(AREA):2302:DS:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CPT:$(AREA):2302:DS:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CPT:$(AREA):2302:DS:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CPT:$(AREA):2302:DS:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CPT:$(AREA):2302:DS:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bi, "CPT:$(AREA):2302:DS:ALM_QUALITY"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ALM_QUALITY[$CM]")
+field(ZNAM, "good")
+field(ONAM, "bad")
+field(PINI, "YES")
+}
+
+record(ai, "CPT:$(AREA):2302:DS:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CPT:$(AREA):2302:DS:ENG_SCALE_L"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ENG_SCALE_L.$CM")
+field(PINI, "YES")
+}
+record(ai, "CPT:$(AREA):2302:DS:ENG_SCALE_U"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ENG_SCALE_U.$CM")
+field(PINI, "YES")
+}
+record(ai, "CPT:$(AREA):2302:DS:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CPT:$(AREA):2302:DS:RAW_SCALE_L"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_RAW_SCALE_L.$CM")
+field(PINI, "YES")
+}
+record(ai, "CPT:$(AREA):2302:DS:RAW_SCALE_U"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_RAW_SCALE_U.$CM")
+field(PINI, "YES")
+}
+record(ai, "CPT:$(AREA):2302:DS:RAW_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_RAW_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CPT:$(AREA):2302:DS:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CPT:$(AREA):2302:DS:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CPT:$(AREA):2302:DS:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2302_DS_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(bi, "CPT:$(AREA):2602:US:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CPT:$(AREA):2602:US:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CPT:$(AREA):2602:US:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CPT:$(AREA):2602:US:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CPT:$(AREA):2602:US:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CPT:$(AREA):2602:US:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CPT:$(AREA):2602:US:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CPT:$(AREA):2602:US:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CPT:$(AREA):2602:US:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CPT:$(AREA):2602:US:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CPT:$(AREA):2602:US:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CPT:$(AREA):2602:US:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CPT:$(AREA):2602:US:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CPT:$(AREA):2602:US:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CPT:$(AREA):2602:US:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bi, "CPT:$(AREA):2602:US:ALM_QUALITY"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ALM_QUALITY[$CM]")
+field(ZNAM, "good")
+field(ONAM, "bad")
+field(PINI, "YES")
+}
+
+record(ai, "CPT:$(AREA):2602:US:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CPT:$(AREA):2602:US:ENG_SCALE_L"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ENG_SCALE_L.$CM")
+field(PINI, "YES")
+}
+record(ai, "CPT:$(AREA):2602:US:ENG_SCALE_U"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ENG_SCALE_U.$CM")
+field(PINI, "YES")
+}
+record(ai, "CPT:$(AREA):2602:US:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2602_US_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CPT:$(AREA):2602:US:RAW_SCALE_L"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2602_US_RAW_SCALE_L.$CM")
+field(PINI, "YES")
+}
+record(ai, "CPT:$(AREA):2602:US:RAW_SCALE_U"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2602_US_RAW_SCALE_U.$CM")
+field(PINI, "YES")
+}
+record(ai, "CPT:$(AREA):2602:US:RAW_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2602_US_RAW_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CPT:$(AREA):2602:US:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2602_US_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CPT:$(AREA):2602:US:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_PR_1_CPT_2602_US_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CPT:$(AREA):2602:US:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_PR_1_CPT_2602_US_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+

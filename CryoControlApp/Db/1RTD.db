@@ -1,0 +1,7333 @@
+record(bo, "CTE:$(AREA):1115:VB:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1115:VB:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1115:VB:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1115:VB:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1115:VB:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1115:VB:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1115:VB:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1115:VB:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1115:VB:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1115:VB:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1115:VB:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1115:VB:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1115:VB:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1115:VB:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1115:VB:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1115:VB:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1115:VB:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1115:VB:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1115:VB:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1115:VB:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1115_VB_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1114:VT:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1114:VT:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1114:VT:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1114:VT:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1114:VT:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1114:VT:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1114:VT:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1114:VT:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1114:VT:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1114:VT:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1114:VT:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1114:VT:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1114:VT:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1114:VT:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1114:VT:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1114:VT:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1114:VT:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1114:VT:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1114:VT:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1114:VT:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1114:VT:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1114_VT_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1120:DH:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1120:DH:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1120:DH:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1120:DH:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1120:DH:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1120:DH:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1120:DH:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1120:DH:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1120:DH:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1120:DH:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1120:DH:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1120:DH:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1120:DH:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1120:DH:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1120:DH:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1120:DH:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1120:DH:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1120:DH:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1120:DH:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1120:DH:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1120:DH:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1120_DH_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1118:UH:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1118:UH:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1118:UH:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1118:UH:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1118:UH:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1118:UH:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1118:UH:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1118:UH:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1118:UH:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1118:UH:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1118:UH:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1118:UH:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1118:UH:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1118:UH:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1118:UH:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1118:UH:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1118:UH:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1118:UH:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1118:UH:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1118:UH:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1118:UH:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C1_1_CTE_1118_UH_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1220:DH:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1220:DH:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1220:DH:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1220:DH:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1220:DH:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1220:DH:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1220:DH:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1220:DH:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1220:DH:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1220:DH:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1220:DH:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1220:DH:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1220:DH:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1220:DH:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1220:DH:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1220:DH:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1220:DH:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1220:DH:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1220:DH:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1220:DH:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1220:DH:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1220_DH_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1218:UH:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1218:UH:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1218:UH:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1218:UH:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1218:UH:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1218:UH:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1218:UH:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1218:UH:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1218:UH:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1218:UH:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1218:UH:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1218:UH:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1218:UH:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1218:UH:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1218:UH:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1218:UH:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1218:UH:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1218:UH:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1218:UH:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1218:UH:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1218:UH:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C2_1_CTE_1218_UH_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1320:DH:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1320:DH:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1320:DH:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1320:DH:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1320:DH:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1320:DH:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1320:DH:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1320:DH:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1320:DH:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1320:DH:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1320:DH:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1320:DH:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1320:DH:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1320:DH:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1320:DH:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1320:DH:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1320:DH:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1320:DH:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1320:DH:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1320:DH:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1320:DH:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1320_DH_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1318:UH:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1318:UH:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1318:UH:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1318:UH:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1318:UH:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1318:UH:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1318:UH:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1318:UH:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1318:UH:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1318:UH:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1318:UH:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1318:UH:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1318:UH:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1318:UH:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1318:UH:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1318:UH:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1318:UH:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1318:UH:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1318:UH:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1318:UH:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1318:UH:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C3_1_CTE_1318_UH_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1420:DH:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1420:DH:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1420:DH:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1420:DH:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1420:DH:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1420:DH:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1420:DH:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1420:DH:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1420:DH:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1420:DH:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1420:DH:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1420:DH:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1420:DH:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1420:DH:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1420:DH:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1420:DH:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1420:DH:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1420:DH:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1420:DH:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1420:DH:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1420:DH:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1420_DH_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1418:UH:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1418:UH:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1418:UH:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1418:UH:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1418:UH:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1418:UH:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1418:UH:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1418:UH:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1418:UH:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1418:UH:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1418:UH:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1418:UH:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1418:UH:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1418:UH:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1418:UH:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1418:UH:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1418:UH:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1418:UH:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1418:UH:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1418:UH:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1418:UH:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C4_1_CTE_1418_UH_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1515:VB:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1515:VB:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1515:VB:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1515:VB:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1515:VB:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1515:VB:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1515:VB:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1515:VB:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1515:VB:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1515:VB:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1515:VB:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1515:VB:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1515:VB:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1515:VB:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1515:VB:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1515:VB:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1515:VB:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1515:VB:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1515:VB:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1515:VB:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1515:VB:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1515_VB_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1514:VT:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1514:VT:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1514:VT:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1514:VT:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1514:VT:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1514:VT:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1514:VT:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1514:VT:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1514:VT:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1514:VT:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1514:VT:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1514:VT:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1514:VT:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1514:VT:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1514:VT:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1514:VT:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1514:VT:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1514:VT:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1514:VT:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1514:VT:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1514:VT:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1514_VT_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1520:DH:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1520:DH:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1520:DH:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1520:DH:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1520:DH:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1520:DH:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1520:DH:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1520:DH:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1520:DH:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1520:DH:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1520:DH:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1520:DH:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1520:DH:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1520:DH:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1520:DH:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1520:DH:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1520:DH:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1520:DH:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1520:DH:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1520:DH:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1520:DH:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1520_DH_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1518:UH:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1518:UH:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1518:UH:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1518:UH:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1518:UH:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1518:UH:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1518:UH:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1518:UH:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1518:UH:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1518:UH:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1518:UH:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1518:UH:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1518:UH:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1518:UH:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1518:UH:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1518:UH:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1518:UH:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1518:UH:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1518:UH:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1518:UH:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1518:UH:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C5_1_CTE_1518_UH_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1620:DH:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1620:DH:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1620:DH:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1620:DH:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1620:DH:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1620:DH:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1620:DH:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1620:DH:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1620:DH:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1620:DH:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1620:DH:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1620:DH:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1620:DH:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1620:DH:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1620:DH:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1620:DH:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1620:DH:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1620:DH:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1620:DH:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1620:DH:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1620:DH:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1620_DH_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1618:UH:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1618:UH:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1618:UH:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1618:UH:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1618:UH:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1618:UH:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1618:UH:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1618:UH:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1618:UH:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1618:UH:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1618:UH:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1618:UH:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1618:UH:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1618:UH:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1618:UH:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1618:UH:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1618:UH:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1618:UH:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1618:UH:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1618:UH:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1618:UH:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C6_1_CTE_1618_UH_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1720:DH:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1720:DH:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1720:DH:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1720:DH:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1720:DH:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1720:DH:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1720:DH:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1720:DH:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1720:DH:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1720:DH:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1720:DH:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1720:DH:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1720:DH:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1720:DH:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1720:DH:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1720:DH:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1720:DH:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1720:DH:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1720:DH:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1720:DH:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1720:DH:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1720_DH_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1718:UH:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1718:UH:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1718:UH:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1718:UH:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1718:UH:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1718:UH:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1718:UH:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1718:UH:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1718:UH:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1718:UH:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1718:UH:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1718:UH:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1718:UH:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1718:UH:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1718:UH:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1718:UH:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1718:UH:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1718:UH:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1718:UH:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1718:UH:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1718:UH:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C7_1_CTE_1718_UH_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1820:DH:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1820:DH:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1820:DH:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1820:DH:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1820:DH:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1820:DH:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1820:DH:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1820:DH:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1820:DH:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1820:DH:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1820:DH:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1820:DH:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1820:DH:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1820:DH:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1820:DH:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1820:DH:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1820:DH:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1820:DH:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1820:DH:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1820:DH:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1820:DH:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1820_DH_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1818:UH:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):1818:UH:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1818:UH:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1818:UH:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1818:UH:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1818:UH:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1818:UH:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1818:UH:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1818:UH:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1818:UH:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1818:UH:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1818:UH:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1818:UH:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1818:UH:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):1818:UH:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):1818:UH:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1818:UH:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1818:UH:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):1818:UH:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):1818:UH:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):1818:UH:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_C8_1_CTE_1818_UH_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2401:MP:1_CTE_2401"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2401_MP_ALM[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2401:MP:1_CTE_2401"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2401_MP_ALM_HI_CTRL[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2401:MP:1_CTE_2401"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2401_MP_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2401:MP:1_CTE_2401"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2401_MP_ALM_LO_CTRL[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2401:MP:1_CTE_2401"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2401_MP_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2401:MP:1_CTE_2401"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2401_MP_ALM_LATCH[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2401:MP:1_CTE_2401"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2401_MP_ALM_RESET[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2401:MP:1_CTE_2401"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2401_MP_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2401:MP:1_CTE_2401"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2401_MP_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2401:MP:1_CTE_2401"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2401_MP_SIM_MODE[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2402:MP:1_CTE_2402"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2402_MP_ALM[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2402:MP:1_CTE_2402"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2402_MP_ALM_HI_CTRL[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2402:MP:1_CTE_2402"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2402_MP_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2402:MP:1_CTE_2402"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2402_MP_ALM_LO_CTRL[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2402:MP:1_CTE_2402"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2402_MP_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2402:MP:1_CTE_2402"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2402_MP_ALM_LATCH[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2402:MP:1_CTE_2402"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2402_MP_ALM_RESET[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2402:MP:1_CTE_2402"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2402_MP_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2402:MP:1_CTE_2402"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2402_MP_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2402:MP:1_CTE_2402"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2402_MP_SIM_MODE[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2403:MP:1_CTE_2403"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2403_MP_ALM[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2403:MP:1_CTE_2403"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2403_MP_ALM_HI_CTRL[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2403:MP:1_CTE_2403"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2403_MP_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2403:MP:1_CTE_2403"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2403_MP_ALM_LO_CTRL[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2403:MP:1_CTE_2403"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2403_MP_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2403:MP:1_CTE_2403"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2403_MP_ALM_LATCH[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2403:MP:1_CTE_2403"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2403_MP_ALM_RESET[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2403:MP:1_CTE_2403"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2403_MP_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2403:MP:1_CTE_2403"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2403_MP_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2403:MP:1_CTE_2403"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2403_MP_SIM_MODE[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2404:MP:1_CTE_2404"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2404_MP_ALM[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2404:MP:1_CTE_2404"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2404_MP_ALM_HI_CTRL[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2404:MP:1_CTE_2404"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2404_MP_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2404:MP:1_CTE_2404"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2404_MP_ALM_LO_CTRL[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2404:MP:1_CTE_2404"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2404_MP_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2404:MP:1_CTE_2404"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2404_MP_ALM_LATCH[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2404:MP:1_CTE_2404"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2404_MP_ALM_RESET[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2404:MP:1_CTE_2404"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2404_MP_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2404:MP:1_CTE_2404"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2404_MP_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2404:MP:1_CTE_2404"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_MP_1_CTE_2404_MP_SIM_MODE[$CM]")
+field(ZNAM, "0")
+field(ONAM, "1")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2405:CL:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):2405:CL:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2405:CL:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2405:CL:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2405:CL:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2405:CL:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2405:CL:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2405:CL:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2405:CL:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2405:CL:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2405:CL:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2405:CL:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2405:CL:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2405:CL:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2405:CL:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):2405:CL:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2405:CL:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2405:CL:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2405:CL:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2405:CL:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2405:CL:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2405_CL_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2406:CL:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):2406:CL:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2406:CL:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2406:CL:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2406:CL:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2406:CL:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2406:CL:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2406:CL:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2406:CL:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2406:CL:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2406:CL:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2406:CL:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2406:CL:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2406:CL:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2406:CL:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):2406:CL:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2406:CL:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2406:CL:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2406:CL:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2406:CL:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2406:CL:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K5_1_CTE_2406_CL_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2407:CL:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):2407:CL:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2407:CL:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2407:CL:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2407:CL:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2407:CL:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2407:CL:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2407:CL:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2407:CL:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2407:CL:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2407:CL:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2407:CL:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2407:CL:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2407:CL:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2407:CL:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):2407:CL:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2407:CL:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2407:CL:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2407:CL:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2407:CL:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2407:CL:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2407_CL_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2408:CL:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):2408:CL:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2408:CL:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2408:CL:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2408:CL:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2408:CL:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2408:CL:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2408:CL:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2408:CL:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2408:CL:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2408:CL:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2408:CL:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2408:CL:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2408:CL:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2408:CL:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):2408:CL:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2408:CL:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2408:CL:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2408:CL:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2408:CL:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2408:CL:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_K2_1_CTE_2408_CL_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2501:A1:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):2501:A1:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2501:A1:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2501:A1:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2501:A1:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2501:A1:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2501:A1:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2501:A1:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2501:A1:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2501:A1:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2501:A1:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2501:A1:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2501:A1:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2501:A1:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2501:A1:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):2501:A1:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2501:A1:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2501:A1:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2501:A1:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2501:A1:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2501:A1:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2501_A1_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2502:B1:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):2502:B1:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2502:B1:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2502:B1:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2502:B1:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2502:B1:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2502:B1:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2502:B1:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2502:B1:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2502:B1:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2502:B1:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2502:B1:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2502:B1:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2502:B1:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2502:B1:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):2502:B1:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2502:B1:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2502:B1:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2502:B1:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2502:B1:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2502:B1:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2502_B1_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2503:B2:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):2503:B2:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2503:B2:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2503:B2:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2503:B2:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2503:B2:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2503:B2:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2503:B2:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2503:B2:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2503:B2:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2503:B2:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2503:B2:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2503:B2:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2503:B2:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2503:B2:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):2503:B2:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2503:B2:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2503:B2:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2503:B2:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2503:B2:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2503:B2:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2503_B2_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2508:C1:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):2508:C1:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2508:C1:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2508:C1:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2508:C1:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2508:C1:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2508:C1:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2508:C1:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2508:C1:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2508:C1:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2508:C1:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2508:C1:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2508:C1:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2508:C1:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2508:C1:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):2508:C1:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2508:C1:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2508:C1:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2508:C1:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2508:C1:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2508:C1:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2508_C1_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2509:D1:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):2509:D1:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2509:D1:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2509:D1:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2509:D1:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2509:D1:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2509:D1:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2509:D1:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2509:D1:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2509:D1:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2509:D1:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2509:D1:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2509:D1:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2509:D1:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2509:D1:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):2509:D1:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2509:D1:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2509:D1:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2509:D1:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2509:D1:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2509:D1:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2509_D1_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2510:E1:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):2510:E1:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2510:E1:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2510:E1:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2510:E1:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2510:E1:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2510:E1:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2510:E1:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2510:E1:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2510:E1:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2510:E1:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2510:E1:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2510:E1:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2510:E1:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2510:E1:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):2510:E1:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2510:E1:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2510:E1:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2510:E1:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2510:E1:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2510:E1:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2510_E1_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2511:F1:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):2511:F1:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2511:F1:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2511:F1:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2511:F1:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2511:F1:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2511:F1:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2511:F1:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2511:F1:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2511:F1:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2511:F1:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2511:F1:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2511:F1:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2511:F1:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2511:F1:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):2511:F1:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2511:F1:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2511:F1:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2511:F1:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2511:F1:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2511:F1:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2511_F1_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2512:S1:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):2512:S1:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2512:S1:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2512:S1:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2512:S1:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2512:S1:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2512:S1:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2512:S1:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2512:S1:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2512:S1:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2512:S1:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2512:S1:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2512:S1:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2512:S1:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2512:S1:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):2512:S1:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2512:S1:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2512:S1:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2512:S1:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2512:S1:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2512:S1:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2512_S1_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2514:CD:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):2514:CD:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2514:CD:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2514:CD:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2514:CD:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2514:CD:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2514:CD:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2514:CD:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2514:CD:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2514:CD:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2514:CD:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2514:CD:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2514:CD:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2514:CD:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2514:CD:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):2514:CD:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2514:CD:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2514:CD:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2514:CD:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2514:CD:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2514:CD:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2514_CD_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2515:CD:ALM"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_ALM[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(bo, "CTE:$(AREA):2515:CD:ALM_HI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_ALM_HI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2515:CD:ALM_HIHI_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_ALM_HIHI_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2515:CD:ALM_LO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_ALM_LO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2515:CD:ALM_LOLO_CTRL"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_ALM_LOLO_CTRL[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2515:CD:ALM_HIHI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_ALM_HIHI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2515:CD:ALM_HI_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_ALM_HI_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2515:CD:ALM_TOL"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_ALM_TOL.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2515:CD:ALM_LATCH"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_ALM_LATCH[$CM]")
+field(ZNAM, "disabled")
+field(ONAM, "enabled")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2515:CD:ALM_LOLO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_ALM_LOLO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2515:CD:ALM_LO_SETPT"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_ALM_LO_SETPT.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2515:CD:ALM_RESET"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_ALM_RESET[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2515:CD:ALM_OP_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_ALM_OP_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2515:CD:ALM_OP_BYPASS_TIME"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_ALM_OP_BYPASS_TIME.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bi, "CTE:$(AREA):2515:CD:ALM_PROG_BYPASS"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_ALM_PROG_BYPASS[$CM]")
+field(ZNAM, "")
+field(ONAM, "")
+field(PINI, "YES")
+}
+
+record(ai, "CTE:$(AREA):2515:CD:ALM_TRG_DLY"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_ALM_TRG_DLY.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2515:CD:ENG_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_ENG_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2515:CD:SIM_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_SIM_VALUE.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(bo, "CTE:$(AREA):2515:CD:SIM_MODE"){
+field(DESC, "$(DESC)")
+field(SCAN, "2 second")
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_SIM_MODE[$CM]")
+field(ZNAM, "activated")
+field(ONAM, "deactivate")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+record(ai, "CTE:$(AREA):2515:CD:OUTPUT_VALUE"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(INP, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_OUTPUT_VALUE.$CM")
+field(PINI, "YES")
+}
+record(ai, "CTE:$(AREA):2515:CD:OFFSET"){
+field(DESC, "$(DESC)")
+field(SCAN, "1 second"
+field(DTYP, "EtherIp")
+field(OUT, "@$(PLC_NAME) P_LN_1_CTE_2515_CD_OFFSET.$CM")
+field(PINI, "NO")
+field(ASG, "CRYO")
+}
+
+
