@@ -58,7 +58,7 @@ cd ${TOP}
 #
 # Register all support components
 dbLoadDatabase "dbd/cryomodules.dbd"
-cryoplant_registerRecordDeviceDriver pdbbase
+cryomodules_registerRecordDeviceDriver pdbbase
 #
 #==============================================================
 # Define EtherIP PLC connections
