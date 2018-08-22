@@ -45,28 +45,19 @@ include $(TOP)/configure/RULES_DIRS
  #----------------------------------------------------
  # Create and install (or just install)
  # databases, templates, substitutions like this
- DB += ctx_temp.vdb
- DB += ctd_temp.vdb
- DB += cdt_temp.vdb
- DB += ctp_temp.vdb
- DB += ctc_temp.vdb
- DB += cpdt_diff_pressure.vdb
- DB += cdp_diff_pressure.vdb
- DB += cvfd_freq.vdb
- DB += cvfd_pwr.vdb
- DB += czt_valve_rb.vdb
- DB += cwcm_current.vdb
- DB += cwcm_power.vdb
- DB += wcmp_StartStop.db
- DB += wcmp_misc.db
  DB += plc_status.db
- DB += pid.db
- DB += alarms.db
+# DB += pid.db
+# DB += alarms.db
  #
  # substitution files
  #
  DB += wcmp_AIns.db
  DB += cryoControl_plcAdmin.db
+ DB += RTD.db
+ DB += valve.db
+ DB += pressure.db
+ DB += level.db
+ DB += heater.db
 
 
  # =======================================================================
