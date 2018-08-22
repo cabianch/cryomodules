@@ -20,7 +20,7 @@
 #==============================================================================
 #
 #
-file plcAdminControlLogix.template
+file 1heater.db
 {
    pattern {  AREA   , CM }
 	   {  02     , 1  }
