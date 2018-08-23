@@ -97,6 +97,10 @@ dbLoadRecords("db/iocRelease.db"     ,"IOC=${IOC_NAME}")
 #dbLoadRecords("db/wcmp_plc_status.db", "PLC_NAME=${PLC_NAME},CP=1,C=4")
 #dbLoadRecords("db/wcmp_alarms.db", "PLC_NAME=${PLC_NAME},CP=1,C=4") 
 dbLoadRecords("db/heaters.db", "PLC_NAME=${PLC_NAME}")
+dbLoadRecords("db/levels.db", "PLC_NAME=${PLC_NAME}")
+dbLoadRecords("db/pressures.db", "PLC_NAME=${PLC_NAME}")
+dbLoadRecords("db/RTDs.db", "PLC_NAME=${PLC_NAME}")
+dbLoadRecords("db/valves.db", "PLC_NAME=${PLC_NAME}")
 
 #==============================================================
 # Load Channel Access Security configuration file
