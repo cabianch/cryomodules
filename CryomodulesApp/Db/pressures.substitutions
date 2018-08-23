@@ -20,7 +20,7 @@
 #==============================================================================
 #
 #
-file 1heater.db
+file 1pressure.db
 {
    pattern {  AREA   , CM   , DESC        } 
 	   {  CM02     , 1  , Description }

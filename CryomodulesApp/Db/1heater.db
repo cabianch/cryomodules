@@ -1,21 +1,21 @@
 record(ai, "CHTR:$(AREA):1155:HV:POWER_RBV"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_POWER_RBV[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1155:HV:POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_POWER[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1155:HV:POWER_SETPT"){
+record(ao, "CHTR:$(AREA):1155:HV:POWER_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_POWER_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -23,15 +23,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1155:HV:PROG_POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_PROG_POWER[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):1155:HV:ENBL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ENBL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -41,57 +41,57 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1155:HV:DES_CURR"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_DES_CURR[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1155:HV:AO_RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_AO_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1155:HV:AO_RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_AO_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1155:HV:AO_RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_AO_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1155:HV:AO_ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_AO_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1155:HV:AO_ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_AO_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1155:HV:AO_ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_AO_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1155:HV:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):1155:HV:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -100,7 +100,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1155:HV:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -110,15 +110,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1155:HV:VOLT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_VOLT[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):1155:HV:ALM_HI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ALM_HI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -129,7 +129,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1155:HV:ALM_HIHI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ALM_HIHI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -140,7 +140,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1155:HV:ALM_LO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ALM_LO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -151,7 +151,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1155:HV:ALM_LOLO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ALM_LOLO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -159,28 +159,28 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1155:HV:ALM_HIHI_SETPT"){
+record(ao, "CHTR:$(AREA):1155:HV:ALM_HIHI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ALM_HIHI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1155:HV:ALM_HI_SETPT"){
+record(ao, "CHTR:$(AREA):1155:HV:ALM_HI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ALM_HI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1155:HV:ALM_TOL"){
+record(ao, "CHTR:$(AREA):1155:HV:ALM_TOL"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ALM_TOL[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -189,7 +189,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1155:HV:ALM_LATCH"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ALM_LATCH[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -197,19 +197,19 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1155:HV:ALM_LOLO_SETPT"){
+record(ao, "CHTR:$(AREA):1155:HV:ALM_LOLO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ALM_LOLO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1155:HV:ALM_LO_SETPT"){
+record(ao, "CHTR:$(AREA):1155:HV:ALM_LO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ALM_LO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -218,7 +218,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1155:HV:ALM_RESET"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ALM_RESET[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -229,7 +229,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1155:HV:ALM_OP_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ALM_OP_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -237,10 +237,10 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1155:HV:ALM_OP_BYPASS_TIME"){
+record(ao, "CHTR:$(AREA):1155:HV:ALM_OP_BYPASS_TIME"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ALM_OP_BYPASS_TIME[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -249,7 +249,7 @@ field(ASG, "CRYO")
 record(bi, "CHTR:$(AREA):1155:HV:ALM_PROG_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ALM_PROG_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -259,17 +259,17 @@ field(PINI, "YES")
 record(bi, "CHTR:$(AREA):1155:HV:ALM_QUALITY"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ALM_QUALITY[$(CM)]")
 field(ZNAM, "good")
 field(ONAM, "bad")
 field(PINI, "YES")
 }
 
-record(ai, "CHTR:$(AREA):1155:HV:ALM_TRG_DLY"){
+record(ao, "CHTR:$(AREA):1155:HV:ALM_TRG_DLY"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ALM_TRG_DLY[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -277,50 +277,50 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1155:HV:ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1155:HV:ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1155:HV:ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1155:HV:RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1155:HV:RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1155:HV:RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1155:HV:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):1155:HV:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -329,7 +329,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1155:HV:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -339,29 +339,29 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1155:HV:OUTPUT_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C1_1_CHTR_1155_HV_OUTPUT_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1255:HV:POWER_RBV"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_POWER_RBV[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1255:HV:POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_POWER[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1255:HV:POWER_SETPT"){
+record(ao, "CHTR:$(AREA):1255:HV:POWER_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_POWER_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -369,15 +369,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1255:HV:PROG_POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_PROG_POWER[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):1255:HV:ENBL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ENBL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -387,57 +387,57 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1255:HV:DES_CURR"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_DES_CURR[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1255:HV:AO_RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_AO_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1255:HV:AO_RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_AO_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1255:HV:AO_RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_AO_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1255:HV:AO_ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_AO_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1255:HV:AO_ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_AO_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1255:HV:AO_ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_AO_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1255:HV:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):1255:HV:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -446,7 +446,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1255:HV:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -456,15 +456,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1255:HV:VOLT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_VOLT[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):1255:HV:ALM_HI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ALM_HI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -475,7 +475,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1255:HV:ALM_HIHI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ALM_HIHI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -486,7 +486,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1255:HV:ALM_LO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ALM_LO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -497,7 +497,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1255:HV:ALM_LOLO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ALM_LOLO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -505,28 +505,28 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1255:HV:ALM_HIHI_SETPT"){
+record(ao, "CHTR:$(AREA):1255:HV:ALM_HIHI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ALM_HIHI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1255:HV:ALM_HI_SETPT"){
+record(ao, "CHTR:$(AREA):1255:HV:ALM_HI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ALM_HI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1255:HV:ALM_TOL"){
+record(ao, "CHTR:$(AREA):1255:HV:ALM_TOL"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ALM_TOL[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -535,7 +535,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1255:HV:ALM_LATCH"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ALM_LATCH[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -543,19 +543,19 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1255:HV:ALM_LOLO_SETPT"){
+record(ao, "CHTR:$(AREA):1255:HV:ALM_LOLO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ALM_LOLO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1255:HV:ALM_LO_SETPT"){
+record(ao, "CHTR:$(AREA):1255:HV:ALM_LO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ALM_LO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -564,7 +564,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1255:HV:ALM_RESET"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ALM_RESET[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -575,7 +575,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1255:HV:ALM_OP_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ALM_OP_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -583,10 +583,10 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1255:HV:ALM_OP_BYPASS_TIME"){
+record(ao, "CHTR:$(AREA):1255:HV:ALM_OP_BYPASS_TIME"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ALM_OP_BYPASS_TIME[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -595,7 +595,7 @@ field(ASG, "CRYO")
 record(bi, "CHTR:$(AREA):1255:HV:ALM_PROG_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ALM_PROG_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -605,17 +605,17 @@ field(PINI, "YES")
 record(bi, "CHTR:$(AREA):1255:HV:ALM_QUALITY"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ALM_QUALITY[$(CM)]")
 field(ZNAM, "good")
 field(ONAM, "bad")
 field(PINI, "YES")
 }
 
-record(ai, "CHTR:$(AREA):1255:HV:ALM_TRG_DLY"){
+record(ao, "CHTR:$(AREA):1255:HV:ALM_TRG_DLY"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ALM_TRG_DLY[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -623,50 +623,50 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1255:HV:ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1255:HV:ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1255:HV:ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1255:HV:RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1255:HV:RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1255:HV:RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1255:HV:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):1255:HV:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -675,7 +675,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1255:HV:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -685,29 +685,29 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1255:HV:OUTPUT_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C2_1_CHTR_1255_HV_OUTPUT_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1355:HV:POWER_RBV"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_POWER_RBV[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1355:HV:POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_POWER[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1355:HV:POWER_SETPT"){
+record(ao, "CHTR:$(AREA):1355:HV:POWER_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_POWER_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -715,15 +715,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1355:HV:PROG_POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_PROG_POWER[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):1355:HV:ENBL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ENBL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -733,57 +733,57 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1355:HV:DES_CURR"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_DES_CURR[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1355:HV:AO_RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_AO_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1355:HV:AO_RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_AO_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1355:HV:AO_RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_AO_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1355:HV:AO_ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_AO_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1355:HV:AO_ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_AO_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1355:HV:AO_ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_AO_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1355:HV:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):1355:HV:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -792,7 +792,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1355:HV:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -802,15 +802,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1355:HV:VOLT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_VOLT[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):1355:HV:ALM_HI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ALM_HI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -821,7 +821,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1355:HV:ALM_HIHI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ALM_HIHI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -832,7 +832,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1355:HV:ALM_LO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ALM_LO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -843,7 +843,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1355:HV:ALM_LOLO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ALM_LOLO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -851,28 +851,28 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1355:HV:ALM_HIHI_SETPT"){
+record(ao, "CHTR:$(AREA):1355:HV:ALM_HIHI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ALM_HIHI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1355:HV:ALM_HI_SETPT"){
+record(ao, "CHTR:$(AREA):1355:HV:ALM_HI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ALM_HI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1355:HV:ALM_TOL"){
+record(ao, "CHTR:$(AREA):1355:HV:ALM_TOL"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ALM_TOL[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -881,7 +881,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1355:HV:ALM_LATCH"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ALM_LATCH[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -889,19 +889,19 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1355:HV:ALM_LOLO_SETPT"){
+record(ao, "CHTR:$(AREA):1355:HV:ALM_LOLO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ALM_LOLO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1355:HV:ALM_LO_SETPT"){
+record(ao, "CHTR:$(AREA):1355:HV:ALM_LO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ALM_LO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -910,7 +910,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1355:HV:ALM_RESET"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ALM_RESET[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -921,7 +921,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1355:HV:ALM_OP_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ALM_OP_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -929,10 +929,10 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1355:HV:ALM_OP_BYPASS_TIME"){
+record(ao, "CHTR:$(AREA):1355:HV:ALM_OP_BYPASS_TIME"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ALM_OP_BYPASS_TIME[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -941,7 +941,7 @@ field(ASG, "CRYO")
 record(bi, "CHTR:$(AREA):1355:HV:ALM_PROG_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ALM_PROG_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -951,17 +951,17 @@ field(PINI, "YES")
 record(bi, "CHTR:$(AREA):1355:HV:ALM_QUALITY"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ALM_QUALITY[$(CM)]")
 field(ZNAM, "good")
 field(ONAM, "bad")
 field(PINI, "YES")
 }
 
-record(ai, "CHTR:$(AREA):1355:HV:ALM_TRG_DLY"){
+record(ao, "CHTR:$(AREA):1355:HV:ALM_TRG_DLY"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ALM_TRG_DLY[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -969,50 +969,50 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1355:HV:ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1355:HV:ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1355:HV:ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1355:HV:RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1355:HV:RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1355:HV:RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1355:HV:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):1355:HV:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1021,7 +1021,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1355:HV:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -1031,29 +1031,29 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1355:HV:OUTPUT_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C3_1_CHTR_1355_HV_OUTPUT_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1455:HV:POWER_RBV"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_POWER_RBV[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1455:HV:POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_POWER[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1455:HV:POWER_SETPT"){
+record(ao, "CHTR:$(AREA):1455:HV:POWER_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_POWER_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1061,15 +1061,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1455:HV:PROG_POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_PROG_POWER[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):1455:HV:ENBL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ENBL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -1079,57 +1079,57 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1455:HV:DES_CURR"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_DES_CURR[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1455:HV:AO_RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_AO_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1455:HV:AO_RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_AO_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1455:HV:AO_RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_AO_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1455:HV:AO_ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_AO_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1455:HV:AO_ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_AO_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1455:HV:AO_ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_AO_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1455:HV:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):1455:HV:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1138,7 +1138,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1455:HV:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -1148,15 +1148,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1455:HV:VOLT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_VOLT[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):1455:HV:ALM_HI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ALM_HI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -1167,7 +1167,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1455:HV:ALM_HIHI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ALM_HIHI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -1178,7 +1178,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1455:HV:ALM_LO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ALM_LO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -1189,7 +1189,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1455:HV:ALM_LOLO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ALM_LOLO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -1197,28 +1197,28 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1455:HV:ALM_HIHI_SETPT"){
+record(ao, "CHTR:$(AREA):1455:HV:ALM_HIHI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ALM_HIHI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1455:HV:ALM_HI_SETPT"){
+record(ao, "CHTR:$(AREA):1455:HV:ALM_HI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ALM_HI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1455:HV:ALM_TOL"){
+record(ao, "CHTR:$(AREA):1455:HV:ALM_TOL"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ALM_TOL[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1227,7 +1227,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1455:HV:ALM_LATCH"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ALM_LATCH[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -1235,19 +1235,19 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1455:HV:ALM_LOLO_SETPT"){
+record(ao, "CHTR:$(AREA):1455:HV:ALM_LOLO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ALM_LOLO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1455:HV:ALM_LO_SETPT"){
+record(ao, "CHTR:$(AREA):1455:HV:ALM_LO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ALM_LO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1256,7 +1256,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1455:HV:ALM_RESET"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ALM_RESET[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -1267,7 +1267,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1455:HV:ALM_OP_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ALM_OP_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -1275,10 +1275,10 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1455:HV:ALM_OP_BYPASS_TIME"){
+record(ao, "CHTR:$(AREA):1455:HV:ALM_OP_BYPASS_TIME"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ALM_OP_BYPASS_TIME[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1287,7 +1287,7 @@ field(ASG, "CRYO")
 record(bi, "CHTR:$(AREA):1455:HV:ALM_PROG_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ALM_PROG_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -1297,17 +1297,17 @@ field(PINI, "YES")
 record(bi, "CHTR:$(AREA):1455:HV:ALM_QUALITY"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ALM_QUALITY[$(CM)]")
 field(ZNAM, "good")
 field(ONAM, "bad")
 field(PINI, "YES")
 }
 
-record(ai, "CHTR:$(AREA):1455:HV:ALM_TRG_DLY"){
+record(ao, "CHTR:$(AREA):1455:HV:ALM_TRG_DLY"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ALM_TRG_DLY[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1315,50 +1315,50 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1455:HV:ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1455:HV:ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1455:HV:ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1455:HV:RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1455:HV:RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1455:HV:RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1455:HV:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):1455:HV:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1367,7 +1367,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1455:HV:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -1377,29 +1377,29 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1455:HV:OUTPUT_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C4_1_CHTR_1455_HV_OUTPUT_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1555:HV:POWER_RBV"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_POWER_RBV[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1555:HV:POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_POWER[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1555:HV:POWER_SETPT"){
+record(ao, "CHTR:$(AREA):1555:HV:POWER_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_POWER_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1407,15 +1407,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1555:HV:PROG_POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_PROG_POWER[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):1555:HV:ENBL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ENBL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -1425,57 +1425,57 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1555:HV:DES_CURR"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_DES_CURR[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1555:HV:AO_RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_AO_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1555:HV:AO_RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_AO_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1555:HV:AO_RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_AO_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1555:HV:AO_ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_AO_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1555:HV:AO_ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_AO_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1555:HV:AO_ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_AO_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1555:HV:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):1555:HV:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1484,7 +1484,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1555:HV:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -1494,15 +1494,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1555:HV:VOLT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_VOLT[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):1555:HV:ALM_HI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ALM_HI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -1513,7 +1513,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1555:HV:ALM_HIHI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ALM_HIHI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -1524,7 +1524,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1555:HV:ALM_LO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ALM_LO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -1535,7 +1535,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1555:HV:ALM_LOLO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ALM_LOLO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -1543,28 +1543,28 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1555:HV:ALM_HIHI_SETPT"){
+record(ao, "CHTR:$(AREA):1555:HV:ALM_HIHI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ALM_HIHI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1555:HV:ALM_HI_SETPT"){
+record(ao, "CHTR:$(AREA):1555:HV:ALM_HI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ALM_HI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1555:HV:ALM_TOL"){
+record(ao, "CHTR:$(AREA):1555:HV:ALM_TOL"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ALM_TOL[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1573,7 +1573,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1555:HV:ALM_LATCH"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ALM_LATCH[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -1581,19 +1581,19 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1555:HV:ALM_LOLO_SETPT"){
+record(ao, "CHTR:$(AREA):1555:HV:ALM_LOLO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ALM_LOLO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1555:HV:ALM_LO_SETPT"){
+record(ao, "CHTR:$(AREA):1555:HV:ALM_LO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ALM_LO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1602,7 +1602,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1555:HV:ALM_RESET"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ALM_RESET[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -1613,7 +1613,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1555:HV:ALM_OP_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ALM_OP_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -1621,10 +1621,10 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1555:HV:ALM_OP_BYPASS_TIME"){
+record(ao, "CHTR:$(AREA):1555:HV:ALM_OP_BYPASS_TIME"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ALM_OP_BYPASS_TIME[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1633,7 +1633,7 @@ field(ASG, "CRYO")
 record(bi, "CHTR:$(AREA):1555:HV:ALM_PROG_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ALM_PROG_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -1643,17 +1643,17 @@ field(PINI, "YES")
 record(bi, "CHTR:$(AREA):1555:HV:ALM_QUALITY"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ALM_QUALITY[$(CM)]")
 field(ZNAM, "good")
 field(ONAM, "bad")
 field(PINI, "YES")
 }
 
-record(ai, "CHTR:$(AREA):1555:HV:ALM_TRG_DLY"){
+record(ao, "CHTR:$(AREA):1555:HV:ALM_TRG_DLY"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ALM_TRG_DLY[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1661,50 +1661,50 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1555:HV:ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1555:HV:ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1555:HV:ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1555:HV:RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1555:HV:RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1555:HV:RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1555:HV:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):1555:HV:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1713,7 +1713,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1555:HV:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -1723,29 +1723,29 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1555:HV:OUTPUT_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C5_1_CHTR_1555_HV_OUTPUT_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1655:HV:POWER_RBV"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_POWER_RBV[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1655:HV:POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_POWER[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1655:HV:POWER_SETPT"){
+record(ao, "CHTR:$(AREA):1655:HV:POWER_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_POWER_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1753,15 +1753,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1655:HV:PROG_POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_PROG_POWER[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):1655:HV:ENBL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ENBL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -1771,57 +1771,57 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1655:HV:DES_CURR"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_DES_CURR[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1655:HV:AO_RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_AO_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1655:HV:AO_RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_AO_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1655:HV:AO_RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_AO_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1655:HV:AO_ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_AO_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1655:HV:AO_ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_AO_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1655:HV:AO_ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_AO_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1655:HV:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):1655:HV:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1830,7 +1830,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1655:HV:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -1840,15 +1840,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1655:HV:VOLT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_VOLT[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):1655:HV:ALM_HI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ALM_HI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -1859,7 +1859,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1655:HV:ALM_HIHI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ALM_HIHI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -1870,7 +1870,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1655:HV:ALM_LO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ALM_LO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -1881,7 +1881,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1655:HV:ALM_LOLO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ALM_LOLO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -1889,28 +1889,28 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1655:HV:ALM_HIHI_SETPT"){
+record(ao, "CHTR:$(AREA):1655:HV:ALM_HIHI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ALM_HIHI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1655:HV:ALM_HI_SETPT"){
+record(ao, "CHTR:$(AREA):1655:HV:ALM_HI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ALM_HI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1655:HV:ALM_TOL"){
+record(ao, "CHTR:$(AREA):1655:HV:ALM_TOL"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ALM_TOL[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1919,7 +1919,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1655:HV:ALM_LATCH"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ALM_LATCH[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -1927,19 +1927,19 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1655:HV:ALM_LOLO_SETPT"){
+record(ao, "CHTR:$(AREA):1655:HV:ALM_LOLO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ALM_LOLO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1655:HV:ALM_LO_SETPT"){
+record(ao, "CHTR:$(AREA):1655:HV:ALM_LO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ALM_LO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1948,7 +1948,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1655:HV:ALM_RESET"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ALM_RESET[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -1959,7 +1959,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1655:HV:ALM_OP_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ALM_OP_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -1967,10 +1967,10 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1655:HV:ALM_OP_BYPASS_TIME"){
+record(ao, "CHTR:$(AREA):1655:HV:ALM_OP_BYPASS_TIME"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ALM_OP_BYPASS_TIME[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -1979,7 +1979,7 @@ field(ASG, "CRYO")
 record(bi, "CHTR:$(AREA):1655:HV:ALM_PROG_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ALM_PROG_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -1989,17 +1989,17 @@ field(PINI, "YES")
 record(bi, "CHTR:$(AREA):1655:HV:ALM_QUALITY"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ALM_QUALITY[$(CM)]")
 field(ZNAM, "good")
 field(ONAM, "bad")
 field(PINI, "YES")
 }
 
-record(ai, "CHTR:$(AREA):1655:HV:ALM_TRG_DLY"){
+record(ao, "CHTR:$(AREA):1655:HV:ALM_TRG_DLY"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ALM_TRG_DLY[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -2007,50 +2007,50 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1655:HV:ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1655:HV:ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1655:HV:ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1655:HV:RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1655:HV:RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1655:HV:RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1655:HV:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):1655:HV:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -2059,7 +2059,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1655:HV:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -2069,29 +2069,29 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1655:HV:OUTPUT_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C6_1_CHTR_1655_HV_OUTPUT_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1755:HV:POWER_RBV"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_POWER_RBV[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1755:HV:POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_POWER[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1755:HV:POWER_SETPT"){
+record(ao, "CHTR:$(AREA):1755:HV:POWER_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_POWER_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -2099,15 +2099,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1755:HV:PROG_POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_PROG_POWER[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):1755:HV:ENBL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ENBL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -2117,57 +2117,57 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1755:HV:DES_CURR"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_DES_CURR[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1755:HV:AO_RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_AO_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1755:HV:AO_RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_AO_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1755:HV:AO_RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_AO_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1755:HV:AO_ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_AO_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1755:HV:AO_ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_AO_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1755:HV:AO_ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_AO_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1755:HV:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):1755:HV:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -2176,7 +2176,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1755:HV:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -2186,15 +2186,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1755:HV:VOLT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_VOLT[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):1755:HV:ALM_HI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ALM_HI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -2205,7 +2205,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1755:HV:ALM_HIHI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ALM_HIHI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -2216,7 +2216,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1755:HV:ALM_LO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ALM_LO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -2227,7 +2227,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1755:HV:ALM_LOLO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ALM_LOLO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -2235,28 +2235,28 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1755:HV:ALM_HIHI_SETPT"){
+record(ao, "CHTR:$(AREA):1755:HV:ALM_HIHI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ALM_HIHI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1755:HV:ALM_HI_SETPT"){
+record(ao, "CHTR:$(AREA):1755:HV:ALM_HI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ALM_HI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1755:HV:ALM_TOL"){
+record(ao, "CHTR:$(AREA):1755:HV:ALM_TOL"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ALM_TOL[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -2265,7 +2265,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1755:HV:ALM_LATCH"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ALM_LATCH[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -2273,19 +2273,19 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1755:HV:ALM_LOLO_SETPT"){
+record(ao, "CHTR:$(AREA):1755:HV:ALM_LOLO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ALM_LOLO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1755:HV:ALM_LO_SETPT"){
+record(ao, "CHTR:$(AREA):1755:HV:ALM_LO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ALM_LO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -2294,7 +2294,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1755:HV:ALM_RESET"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ALM_RESET[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -2305,7 +2305,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1755:HV:ALM_OP_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ALM_OP_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -2313,10 +2313,10 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1755:HV:ALM_OP_BYPASS_TIME"){
+record(ao, "CHTR:$(AREA):1755:HV:ALM_OP_BYPASS_TIME"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ALM_OP_BYPASS_TIME[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -2325,7 +2325,7 @@ field(ASG, "CRYO")
 record(bi, "CHTR:$(AREA):1755:HV:ALM_PROG_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ALM_PROG_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -2335,17 +2335,17 @@ field(PINI, "YES")
 record(bi, "CHTR:$(AREA):1755:HV:ALM_QUALITY"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ALM_QUALITY[$(CM)]")
 field(ZNAM, "good")
 field(ONAM, "bad")
 field(PINI, "YES")
 }
 
-record(ai, "CHTR:$(AREA):1755:HV:ALM_TRG_DLY"){
+record(ao, "CHTR:$(AREA):1755:HV:ALM_TRG_DLY"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ALM_TRG_DLY[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -2353,50 +2353,50 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1755:HV:ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1755:HV:ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1755:HV:ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1755:HV:RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1755:HV:RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1755:HV:RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1755:HV:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):1755:HV:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -2405,7 +2405,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1755:HV:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -2415,29 +2415,29 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1755:HV:OUTPUT_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C7_1_CHTR_1755_HV_OUTPUT_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1855:HV:POWER_RBV"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_POWER_RBV[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1855:HV:POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_POWER[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1855:HV:POWER_SETPT"){
+record(ao, "CHTR:$(AREA):1855:HV:POWER_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_POWER_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -2445,15 +2445,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1855:HV:PROG_POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_PROG_POWER[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):1855:HV:ENBL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ENBL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -2463,57 +2463,57 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1855:HV:DES_CURR"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_DES_CURR[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1855:HV:AO_RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_AO_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1855:HV:AO_RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_AO_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1855:HV:AO_RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_AO_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1855:HV:AO_ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_AO_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1855:HV:AO_ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_AO_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1855:HV:AO_ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_AO_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1855:HV:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):1855:HV:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -2522,7 +2522,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1855:HV:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -2532,15 +2532,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1855:HV:VOLT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_VOLT[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):1855:HV:ALM_HI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ALM_HI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -2551,7 +2551,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1855:HV:ALM_HIHI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ALM_HIHI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -2562,7 +2562,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1855:HV:ALM_LO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ALM_LO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -2573,7 +2573,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1855:HV:ALM_LOLO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ALM_LOLO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -2581,28 +2581,28 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1855:HV:ALM_HIHI_SETPT"){
+record(ao, "CHTR:$(AREA):1855:HV:ALM_HIHI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ALM_HIHI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1855:HV:ALM_HI_SETPT"){
+record(ao, "CHTR:$(AREA):1855:HV:ALM_HI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ALM_HI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1855:HV:ALM_TOL"){
+record(ao, "CHTR:$(AREA):1855:HV:ALM_TOL"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ALM_TOL[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -2611,7 +2611,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1855:HV:ALM_LATCH"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ALM_LATCH[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -2619,19 +2619,19 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1855:HV:ALM_LOLO_SETPT"){
+record(ao, "CHTR:$(AREA):1855:HV:ALM_LOLO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ALM_LOLO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1855:HV:ALM_LO_SETPT"){
+record(ao, "CHTR:$(AREA):1855:HV:ALM_LO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ALM_LO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -2640,7 +2640,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1855:HV:ALM_RESET"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ALM_RESET[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -2651,7 +2651,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1855:HV:ALM_OP_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ALM_OP_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -2659,10 +2659,10 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):1855:HV:ALM_OP_BYPASS_TIME"){
+record(ao, "CHTR:$(AREA):1855:HV:ALM_OP_BYPASS_TIME"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ALM_OP_BYPASS_TIME[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -2671,7 +2671,7 @@ field(ASG, "CRYO")
 record(bi, "CHTR:$(AREA):1855:HV:ALM_PROG_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ALM_PROG_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -2681,17 +2681,17 @@ field(PINI, "YES")
 record(bi, "CHTR:$(AREA):1855:HV:ALM_QUALITY"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ALM_QUALITY[$(CM)]")
 field(ZNAM, "good")
 field(ONAM, "bad")
 field(PINI, "YES")
 }
 
-record(ai, "CHTR:$(AREA):1855:HV:ALM_TRG_DLY"){
+record(ao, "CHTR:$(AREA):1855:HV:ALM_TRG_DLY"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ALM_TRG_DLY[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -2699,50 +2699,50 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1855:HV:ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1855:HV:ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1855:HV:ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1855:HV:RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1855:HV:RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):1855:HV:RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):1855:HV:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):1855:HV:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -2751,7 +2751,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):1855:HV:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -2761,15 +2761,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):1855:HV:OUTPUT_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_C8_1_CHTR_1855_HV_OUTPUT_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):2140:MP:1_CHTR_2140"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_MP_1_CHTR_2140_MP_ENBL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2780,7 +2780,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2140:MP:1_CHTR_2140"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_MP_1_CHTR_2140_MP_SIM_MODE[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2791,7 +2791,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2140:MP:1_CHTR_2140"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_MP_1_CHTR_2140_MP_ALM_HI_CTRL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2802,7 +2802,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2140:MP:1_CHTR_2140"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_MP_1_CHTR_2140_MP_ALM_HIHI_CTRL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2813,7 +2813,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2140:MP:1_CHTR_2140"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_MP_1_CHTR_2140_MP_ALM_LO_CTRL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2824,7 +2824,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2140:MP:1_CHTR_2140"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_MP_1_CHTR_2140_MP_ALM_LOLO_CTRL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2835,7 +2835,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2140:MP:1_CHTR_2140"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_MP_1_CHTR_2140_MP_ALM_LATCH[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2846,7 +2846,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2140:MP:1_CHTR_2140"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_MP_1_CHTR_2140_MP_ALM_RESET[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2857,7 +2857,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2140:MP:1_CHTR_2140"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_MP_1_CHTR_2140_MP_ALM_OP_BYPASS[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2868,7 +2868,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2140:MP:1_CHTR_2140"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_MP_1_CHTR_2140_MP_ALM_PROG_BYPASS[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2879,7 +2879,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2140:MP:1_CHTR_2140"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_MP_1_CHTR_2140_MP_ALM_QUALITY[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2890,7 +2890,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2140:MP:1_CHTR_2140"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_MP_1_CHTR_2140_MP_SIM_MODE[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2901,7 +2901,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2261:CD:1_CHTR_2261"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2261_CD_ENBL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2912,7 +2912,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2261:CD:1_CHTR_2261"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2261_CD_SIM_MODE[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2923,7 +2923,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2261:CD:1_CHTR_2261"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2261_CD_ALM_HI_CTRL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2934,7 +2934,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2261:CD:1_CHTR_2261"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2261_CD_ALM_HIHI_CTRL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2945,7 +2945,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2261:CD:1_CHTR_2261"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2261_CD_ALM_LO_CTRL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2956,7 +2956,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2261:CD:1_CHTR_2261"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2261_CD_ALM_LOLO_CTRL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2967,7 +2967,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2261:CD:1_CHTR_2261"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2261_CD_ALM_LATCH[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2978,7 +2978,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2261:CD:1_CHTR_2261"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2261_CD_ALM_RESET[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -2989,7 +2989,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2261:CD:1_CHTR_2261"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2261_CD_ALM_OP_BYPASS[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3000,7 +3000,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2261:CD:1_CHTR_2261"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2261_CD_ALM_PROG_BYPASS[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3011,7 +3011,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2261:CD:1_CHTR_2261"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2261_CD_ALM_QUALITY[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3022,7 +3022,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2261:CD:1_CHTR_2261"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2261_CD_SIM_MODE[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3033,7 +3033,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2262:CD:1_CHTR_2262"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2262_CD_ENBL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3044,7 +3044,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2262:CD:1_CHTR_2262"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2262_CD_SIM_MODE[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3055,7 +3055,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2262:CD:1_CHTR_2262"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2262_CD_ALM_HI_CTRL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3066,7 +3066,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2262:CD:1_CHTR_2262"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2262_CD_ALM_HIHI_CTRL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3077,7 +3077,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2262:CD:1_CHTR_2262"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2262_CD_ALM_LO_CTRL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3088,7 +3088,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2262:CD:1_CHTR_2262"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2262_CD_ALM_LOLO_CTRL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3099,7 +3099,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2262:CD:1_CHTR_2262"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2262_CD_ALM_LATCH[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3110,7 +3110,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2262:CD:1_CHTR_2262"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2262_CD_ALM_RESET[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3121,7 +3121,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2262:CD:1_CHTR_2262"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2262_CD_ALM_OP_BYPASS[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3132,7 +3132,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2262:CD:1_CHTR_2262"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2262_CD_ALM_PROG_BYPASS[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3143,7 +3143,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2262:CD:1_CHTR_2262"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2262_CD_ALM_QUALITY[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3154,7 +3154,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2262:CD:1_CHTR_2262"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2262_CD_SIM_MODE[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3165,7 +3165,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2263:CD:1_CHTR_2263"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2263_CD_ENBL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3176,7 +3176,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2263:CD:1_CHTR_2263"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2263_CD_SIM_MODE[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3187,7 +3187,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2263:CD:1_CHTR_2263"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2263_CD_ALM_HI_CTRL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3198,7 +3198,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2263:CD:1_CHTR_2263"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2263_CD_ALM_HIHI_CTRL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3209,7 +3209,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2263:CD:1_CHTR_2263"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2263_CD_ALM_LO_CTRL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3220,7 +3220,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2263:CD:1_CHTR_2263"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2263_CD_ALM_LOLO_CTRL[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3231,7 +3231,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2263:CD:1_CHTR_2263"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2263_CD_ALM_LATCH[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3242,7 +3242,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2263:CD:1_CHTR_2263"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2263_CD_ALM_RESET[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3253,7 +3253,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2263:CD:1_CHTR_2263"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2263_CD_ALM_OP_BYPASS[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3264,7 +3264,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2263:CD:1_CHTR_2263"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2263_CD_ALM_PROG_BYPASS[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3275,7 +3275,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2263:CD:1_CHTR_2263"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2263_CD_ALM_QUALITY[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3286,7 +3286,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2263:CD:1_CHTR_2263"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_CD_1_CHTR_2263_CD_SIM_MODE[$(CM)]")
 field(ZNAM, "0")
 field(ONAM, "1")
@@ -3296,22 +3296,22 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):2264:DS:POWER_RBV"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_POWER_RBV[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2264:DS:POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_POWER[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):2264:DS:POWER_SETPT"){
+record(ao, "CHTR:$(AREA):2264:DS:POWER_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_POWER_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -3319,15 +3319,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):2264:DS:PROG_POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_PROG_POWER[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):2264:DS:ENBL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ENBL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -3337,57 +3337,57 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):2264:DS:DES_CURR"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_DES_CURR[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2264:DS:AO_RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_AO_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2264:DS:AO_RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_AO_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2264:DS:AO_RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_AO_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2264:DS:AO_ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_AO_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2264:DS:AO_ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_AO_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2264:DS:AO_ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_AO_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):2264:DS:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):2264:DS:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -3396,7 +3396,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2264:DS:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -3406,15 +3406,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):2264:DS:VOLT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_VOLT[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):2264:DS:ALM_HI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ALM_HI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -3425,7 +3425,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2264:DS:ALM_HIHI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ALM_HIHI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -3436,7 +3436,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2264:DS:ALM_LO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ALM_LO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -3447,7 +3447,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2264:DS:ALM_LOLO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ALM_LOLO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -3455,28 +3455,28 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):2264:DS:ALM_HIHI_SETPT"){
+record(ao, "CHTR:$(AREA):2264:DS:ALM_HIHI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ALM_HIHI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):2264:DS:ALM_HI_SETPT"){
+record(ao, "CHTR:$(AREA):2264:DS:ALM_HI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ALM_HI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):2264:DS:ALM_TOL"){
+record(ao, "CHTR:$(AREA):2264:DS:ALM_TOL"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ALM_TOL[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -3485,7 +3485,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2264:DS:ALM_LATCH"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ALM_LATCH[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -3493,19 +3493,19 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):2264:DS:ALM_LOLO_SETPT"){
+record(ao, "CHTR:$(AREA):2264:DS:ALM_LOLO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ALM_LOLO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):2264:DS:ALM_LO_SETPT"){
+record(ao, "CHTR:$(AREA):2264:DS:ALM_LO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ALM_LO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -3514,7 +3514,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2264:DS:ALM_RESET"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ALM_RESET[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -3525,7 +3525,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2264:DS:ALM_OP_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ALM_OP_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -3533,10 +3533,10 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):2264:DS:ALM_OP_BYPASS_TIME"){
+record(ao, "CHTR:$(AREA):2264:DS:ALM_OP_BYPASS_TIME"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ALM_OP_BYPASS_TIME[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -3545,7 +3545,7 @@ field(ASG, "CRYO")
 record(bi, "CHTR:$(AREA):2264:DS:ALM_PROG_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ALM_PROG_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -3555,17 +3555,17 @@ field(PINI, "YES")
 record(bi, "CHTR:$(AREA):2264:DS:ALM_QUALITY"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ALM_QUALITY[$(CM)]")
 field(ZNAM, "good")
 field(ONAM, "bad")
 field(PINI, "YES")
 }
 
-record(ai, "CHTR:$(AREA):2264:DS:ALM_TRG_DLY"){
+record(ao, "CHTR:$(AREA):2264:DS:ALM_TRG_DLY"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ALM_TRG_DLY[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -3573,50 +3573,50 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):2264:DS:ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2264:DS:ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2264:DS:ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2264:DS:RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2264:DS:RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2264:DS:RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):2264:DS:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):2264:DS:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -3625,7 +3625,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2264:DS:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -3635,29 +3635,29 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):2264:DS:OUTPUT_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2264_DS_OUTPUT_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2522:US:POWER_RBV"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_POWER_RBV[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2522:US:POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_POWER[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):2522:US:POWER_SETPT"){
+record(ao, "CHTR:$(AREA):2522:US:POWER_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_POWER_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -3665,15 +3665,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):2522:US:PROG_POWER"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_PROG_POWER[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):2522:US:ENBL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ENBL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -3683,57 +3683,57 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):2522:US:DES_CURR"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_DES_CURR[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2522:US:AO_RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_AO_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2522:US:AO_RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_AO_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2522:US:AO_RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_AO_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2522:US:AO_ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_AO_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2522:US:AO_ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_AO_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2522:US:AO_ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_AO_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):2522:US:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):2522:US:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -3742,7 +3742,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2522:US:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -3752,15 +3752,15 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):2522:US:VOLT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_VOLT[$(CM)]")
 field(PINI, "YES")
 }
 record(bo, "CHTR:$(AREA):2522:US:ALM_HI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ALM_HI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -3771,7 +3771,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2522:US:ALM_HIHI_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ALM_HIHI_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -3782,7 +3782,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2522:US:ALM_LO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ALM_LO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -3793,7 +3793,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2522:US:ALM_LOLO_CTRL"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ALM_LOLO_CTRL[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -3801,28 +3801,28 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):2522:US:ALM_HIHI_SETPT"){
+record(ao, "CHTR:$(AREA):2522:US:ALM_HIHI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ALM_HIHI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):2522:US:ALM_HI_SETPT"){
+record(ao, "CHTR:$(AREA):2522:US:ALM_HI_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ALM_HI_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):2522:US:ALM_TOL"){
+record(ao, "CHTR:$(AREA):2522:US:ALM_TOL"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ALM_TOL[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -3831,7 +3831,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2522:US:ALM_LATCH"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ALM_LATCH[$(CM)]")
 field(ZNAM, "disabled")
 field(ONAM, "enabled")
@@ -3839,19 +3839,19 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):2522:US:ALM_LOLO_SETPT"){
+record(ao, "CHTR:$(AREA):2522:US:ALM_LOLO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ALM_LOLO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):2522:US:ALM_LO_SETPT"){
+record(ao, "CHTR:$(AREA):2522:US:ALM_LO_SETPT"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ALM_LO_SETPT[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -3860,7 +3860,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2522:US:ALM_RESET"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ALM_RESET[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -3871,7 +3871,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2522:US:ALM_OP_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ALM_OP_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -3879,10 +3879,10 @@ field(PINI, "NO")
 field(ASG, "CRYO")
 }
 
-record(ai, "CHTR:$(AREA):2522:US:ALM_OP_BYPASS_TIME"){
+record(ao, "CHTR:$(AREA):2522:US:ALM_OP_BYPASS_TIME"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ALM_OP_BYPASS_TIME[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -3891,7 +3891,7 @@ field(ASG, "CRYO")
 record(bi, "CHTR:$(AREA):2522:US:ALM_PROG_BYPASS"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ALM_PROG_BYPASS[$(CM)]")
 field(ZNAM, "")
 field(ONAM, "")
@@ -3901,17 +3901,17 @@ field(PINI, "YES")
 record(bi, "CHTR:$(AREA):2522:US:ALM_QUALITY"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ALM_QUALITY[$(CM)]")
 field(ZNAM, "good")
 field(ONAM, "bad")
 field(PINI, "YES")
 }
 
-record(ai, "CHTR:$(AREA):2522:US:ALM_TRG_DLY"){
+record(ao, "CHTR:$(AREA):2522:US:ALM_TRG_DLY"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ALM_TRG_DLY[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -3919,50 +3919,50 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):2522:US:ENG_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ENG_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2522:US:ENG_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ENG_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2522:US:ENG_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_ENG_VALUE[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2522:US:RAW_SCALE_L"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_RAW_SCALE_L[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2522:US:RAW_SCALE_U"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_RAW_SCALE_U[$(CM)]")
 field(PINI, "YES")
 }
 record(ai, "CHTR:$(AREA):2522:US:RAW_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_RAW_VALUE[$(CM)]")
 field(PINI, "YES")
 }
-record(ai, "CHTR:$(AREA):2522:US:SIM_VALUE"){
+record(ao, "CHTR:$(AREA):2522:US:SIM_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_SIM_VALUE[$(CM)]")
 field(PINI, "NO")
 field(ASG, "CRYO")
@@ -3971,7 +3971,7 @@ field(ASG, "CRYO")
 record(bo, "CHTR:$(AREA):2522:US:SIM_MODE"){
 field(DESC, "$(DESC)")
 field(SCAN, "2 second")
-field(DTYP, "EtherIp")
+field(DTYP, "EtherIP")
 field(OUT, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_SIM_MODE[$(CM)]")
 field(ZNAM, "activated")
 field(ONAM, "deactivate")
@@ -3981,8 +3981,8 @@ field(ASG, "CRYO")
 
 record(ai, "CHTR:$(AREA):2522:US:OUTPUT_VALUE"){
 field(DESC, "$(DESC)")
-field(SCAN, "1 second"
-field(DTYP, "EtherIp")
+field(SCAN, "1 second")
+field(DTYP, "EtherIP")
 field(INP, "@$(PLC_NAME) P_LC_1_CHTR_2522_US_OUTPUT_VALUE[$(CM)]")
 field(PINI, "YES")
 }
